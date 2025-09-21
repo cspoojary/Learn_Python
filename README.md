@@ -3,3 +3,5 @@
 [Python notion notes](https://www.notion.so/Python-26f6976975c080a387a5fc3283dc28f8)
 
 
+[Python EB notes](https://classroom.google.com/c/NzUxOTY2MDI4NTM0)
+
