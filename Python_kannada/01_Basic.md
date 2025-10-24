@@ -36,12 +36,14 @@ Unlike other compiled languages like C or Java, Python executes the code line by
 - Object-Oriented: Supports OOP (Object-Oriented Programming) like classes and objects.
 - Rich Standard Library: Comes with lots of built-in modules and functions.
 
-# 🐍 Python Code Snippets
-
-## 🔹 Example 1: Hello World Program
-This is your first Python program.
-
+## Checking version of Python
+### On Windows
 ```python
-# hello.py
-print("Hello, World!")
+python --version
+```
+### On macOS
+```python
+python3 --version
+```
+
 
