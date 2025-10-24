@@ -35,3 +35,13 @@ Unlike other compiled languages like C or Java, Python executes the code line by
 - Dynamically Typed: No need to declare variable types explicitly.
 - Object-Oriented: Supports OOP (Object-Oriented Programming) like classes and objects.
 - Rich Standard Library: Comes with lots of built-in modules and functions.
+
+# 🐍 Python Code Snippets
+
+## 🔹 Example 1: Hello World Program
+This is your first Python program.
+
+```python
+# hello.py
+print("Hello, World!")
+
