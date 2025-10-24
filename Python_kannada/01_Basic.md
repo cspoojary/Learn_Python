@@ -1,5 +1,3 @@
-## Introduction to Python Programming
-
 # 🐍 Introduction to Python Programming
 
 ## 1️⃣ What is Python?
