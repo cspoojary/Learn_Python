@@ -2,18 +2,18 @@
 
 ## Variables in Python
 Variables are used to store data values.  
-You don’t need to declare their type (Python is dynamically typed).
+They are created when you assign a value to them, and you don’t need to declare their type (Python is dynamically typed).
 
 ###  Syntax:
 ```python
-x = 5        # integer
-y = "Hello"  # string
+x = 5        # Assigning an integer value to the variable x
+y = "Hello"  # Assigning a string value to the variable y
 ```
 
 ###  Rules for Naming Variables:
-- Must start with a letter or underscore `_`
-- Can contain letters, digits, and underscores
-- Case-sensitive (`Name` and `name` are different)
+- Variable names can contain letters (a-z, A-Z), numbers (0-9), and underscores (_).
+- Variable names must start with a letter or an underscore.
+- Variable names are case-sensitive (Name and name are different).
 
 ### Example:
 ```python
@@ -32,6 +32,7 @@ Common built-in types:
 - `bool` – Boolean (`True` or `False`)
 
 ### Type Checking:
+You can use the type() function to check the type of a variable.
 ```python
 x = 10
 print(type(x))  # Output: <class 'int'>
@@ -40,20 +41,20 @@ print(type(x))  # Output: <class 'int'>
 ---
 
 ## Type Conversion
-You can convert between data types using:
-`int()`, `float()`, `str()`, etc.
+Python allows you to convert between data types using functions like int(), float(), str(), etc.
 
 ### Example:
 ```python
-x = "10"      # string
-y = int(x)    # convert to integer
-z = float(y)  # convert to float
-print(z)      # Output: 10.0
+x = "10"  # x is a string
+y = int(x)  # Convert string to integer
+z = float(y)  # Convert integer to float
+print(z)  # Output: 10.0
 ```
 
 ---
 
 ## Arithmetic Operators
+Python supports basic arithmetic operations like addition, subtraction, multiplication, division, and more.
 | Operator | Description | Example | Result |
 |-----------|--------------|----------|--------|
 | `+` | Addition | `10 + 3` | 13 |
@@ -68,25 +69,25 @@ print(z)      # Output: 10.0
 ```python
 a = 10
 b = 3
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
-print(a // b)
-print(a % b)
-print(a ** b)
+print(a + b)  # Output: 13
+print(a - b)  # Output: 7
+print(a * b)  # Output: 30
+print(a / b)  # Output: 3.3333...
+print(a // b)  # Output: 3 (Floor Division)
+print(a % b)  # Output: 1 (Modulus)
+print(a ** b)  # Output: 1000 (Exponentiation)
 ```
 
 ---
 
 ## Assigning Values to Multiple Variables
-You can assign multiple values at once:
+Python allows you to assign values to multiple variables in a single line.
 ```python
 x, y, z = 10, 20, 30
 print(x, y, z)
 ```
 
-Or assign one value to multiple variables:
+Or You can also assign the same value to multiple variables in one line:
 ```python
 x = y = z = 100
 print(x, y, z)
@@ -95,19 +96,20 @@ print(x, y, z)
 ---
 
 ## Variable Reassignment
-Variables can be changed anytime:
+You can change the value of a variable at any point in your program.
+Example:
 ```python
 x = 5
-print(x)
+print(x)  # Output: 5
 x = 10
-print(x)
+print(x)  # Output: 10
 ```
 
 ---
 
 ## Homework
 
-### 🧮 **1. Arithmetic Practice**
+###  **1. Arithmetic Practice**
 Write a program that performs addition, subtraction, multiplication, and division on two numbers.
 
 ```python
