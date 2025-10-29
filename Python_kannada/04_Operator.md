@@ -142,7 +142,7 @@ print(a << 1)  # Output: 10 (binary: 1010)
 print(a >> 1)  # Output: 2 (binary: 010)
 ```
 ---
-## 6. Arithmetic Operators (Already Covered in Chapter 2)
+## 6. Arithmetic Operators (Already Covered in [Chapter 2](https://github.com/cspoojary/Learn_Python/blob/main/Python_kannada/02_Basics.md))
 
 Python supports basic arithmetic operations like addition, subtraction, multiplication, division, and more.
 
