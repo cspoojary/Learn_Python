@@ -24,4 +24,30 @@ x *= 4  # Equivalent to x = x * 4, now x is 24
 x /= 6  # Equivalent to x = x / 6, now x is 4.0
 
 print(x)
+```
+----
+## 2. Comparison Operators
 
+Comparison operators are used to compare two values.  
+They return either `True` or `False` depending on the condition.
+
+### Common Comparison Operators:
+| Operator | Description |
+|-----------|--------------|
+| == | Checks if two values are equal |
+| != | Checks if two values are not equal |
+| >  | Checks if the left operand is greater than the right operand |
+| <  | Checks if the left operand is less than the right operand |
+| >= | Checks if the left operand is greater than or equal to the right operand |
+| <= | Checks if the left operand is less than or equal to the right operand |
+
+### Example:
+```python
+a = 10
+b = 20
+
+print(a == b)   # Output: False
+print(a != b)   # Output: True
+print(a > b)    # Output: False
+print(a < b)    # Ou
+```
