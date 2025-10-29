@@ -189,6 +189,7 @@ print(a ** b)  # Output: 1000 (Exponentiation)
 - Checks if the string doesn't contain the word "Python" (using not in).
 - Bitwise Operator Task: Given two integers, write a Python program that:
 
-4. Prints the result of a & b, a | b, and a ^ b.
-Shifts the bits of a two positions to the left (a << 2).
-Shifts the bits of b one position to the right (b >> 1).
+4. Bitwise Operator Exercise:
+- Prints the result of a & b, a | b, and a ^ b.
+- Shifts the bits of a two positions to the left (a << 2).
+- Shifts the bits of b one position to the right (b >> 1).
