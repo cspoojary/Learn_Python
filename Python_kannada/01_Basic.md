@@ -14,6 +14,7 @@ all at once before execution.
 - An interpreter, on the other hand, translates and executes
 code line by line. Python and JavaScript are examples of languages that use
 interpreters, while languages like C++ and Java typically use compilers.
+---
 
 ## Common Uses of Python:
 - **Web Development:** Django, Flask  
