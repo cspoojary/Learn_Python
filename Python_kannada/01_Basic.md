@@ -1,9 +1,13 @@
 #  Introduction to Python Programming
 
 ##  What is Python?
-**Python** is a high-level, interpreted programming language known for its **simplicity** and **readability**.  
+**Python** is a **high-level**, **interpreted** programming language known for its **simplicity** and
+**readability**. Key features include **dynamic typing**, **automatic memory management**
+(garbage collection), a **large standard library**, and support for **multiple programming
+paradigms (procedural, object-oriented, and functional)**.
 It allows developers to write clear and efficient programs for both small and large-scale projects.  
 It was created by Guido van Rossum, and released in 1991.
+
 
 ## Common Uses of Python:
 - **Web Development:** Django, Flask  
