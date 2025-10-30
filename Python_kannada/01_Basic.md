@@ -7,7 +7,13 @@
 paradigms (procedural, object-oriented, and functional)**.
 - It allows developers to write clear and efficient programs for both small and large-scale projects.  
 - It was created by Guido van Rossum, and released in 1991.
-
+---
+### Difference between a compiler and an interpreter.
+- A compiler translates the entire source code into machine code or an intermediate code
+all at once before execution. 
+- An interpreter, on the other hand, translates and executes
+code line by line. Python and JavaScript are examples of languages that use
+interpreters, while languages like C++ and Java typically use compilers.
 
 ## Common Uses of Python:
 - **Web Development:** Django, Flask  
