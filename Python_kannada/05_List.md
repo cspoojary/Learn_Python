@@ -41,3 +41,50 @@ print(fruits[-2])  # Output: banana
 ```
 ---
 
+## 3. Modifying Lists
+Lists are **mutable**, which means you can change the value of items in a list.
+
+### Changing a specific element:
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits[1] = "orange"
+print(fruits)  # Output: ['apple', 'orange', 'cherry']
+```
+
+### Adding elements:
+
+#### append(): Adds an element to the end of the list.
+```python
+fruits.append("grape")
+print(fruits)  # Output: ['apple', 'orange', 'cherry', 'grape']
+```
+
+#### insert(): Inserts an element at a specific index.
+```python
+fruits.insert(1, "kiwi")
+print(fruits)  # Output: ['apple', 'kiwi', 'orange', 'cherry']
+```
+
+### Removing elements:
+
+#### remove(): Removes the first occurrence of an element.
+```python
+fruits.remove("orange")
+print(fruits)  # Output: ['apple', 'kiwi', 'cherry']
+```
+
+#### pop(): Removes the element at a specific index (or the last item if no index is provided).
+```python
+fruits.pop()  # Removes the last item
+print(fruits)  # Output: ['apple', 'kiwi']
+
+fruits.pop(0)  # Removes the first item
+print(fruits)  # Output: ['kiwi']
+```
+
+#### clear(): Removes all elements from the list.
+```python
+fruits.clear()
+print(fruits)  # Output: []
+```
+---
