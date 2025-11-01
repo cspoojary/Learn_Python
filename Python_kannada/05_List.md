@@ -128,3 +128,5 @@ print(numbers)  # Original list remains unchanged: [5, 2, 9, 1]
 ```python
 numbers = [1, 2, 3, 4]
 print(sum(numbers))  # Output: 10
+```
+---
