@@ -88,3 +88,23 @@ fruits.clear()
 print(fruits)  # Output: []
 ```
 ---
+## 4. Slicing Lists
+You can extract a portion of a list using **slicing**.
+
+### Syntax:
+```python
+list_name[start:stop:step]
+```
+- **start**: The index to start the slice (inclusive).  
+- **stop**: The index to stop the slice (exclusive).  
+- **step**: The number of steps to skip elements (default is 1).
+
+### Examples:
+```python
+numbers = [0, 1, 2, 3, 4, 5, 6]
+print(numbers[1:4])  # Output: [1, 2, 3]
+print(numbers[:4])   # Output: [0, 1, 2, 3]
+print(numbers[2:])   # Output: [2, 3, 4, 5, 6]
+print(numbers[::2])  # Output: [0, 2, 4, 6]
+```
+---
