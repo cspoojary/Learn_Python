@@ -130,3 +130,30 @@ numbers = [1, 2, 3, 4]
 print(sum(numbers))  # Output: 10
 ```
 ---
+### 5.2 Common Methods:
+#### index(element): Returns the index of the first occurrence of the specified element.
+```python
+fruits = ["apple", "banana", "cherry"]
+print(fruits.index("apple"))  # Output: 0
+```
+
+#### count(element): Returns the number of occurrences of an element in the list.
+```python
+numbers = [1, 2, 3, 1, 1]
+print(numbers.count(1))  # Output: 3
+```
+
+#### reverse(): Reverses the elements of the list in place.
+```python
+fruits = ["apple", "orange", "cherry"]
+fruits.reverse()
+print(fruits)  # Output: ['cherry', 'orange', 'apple']
+```
+
+#### sort(): Sorts the list in place (ascending by default).
+```python
+numbers = [5, 2, 9, 1]
+numbers.sort()
+print(numbers)  # Output: [1, 2, 5, 9]
+```
+---
