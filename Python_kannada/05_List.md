@@ -175,3 +175,15 @@ print(matrix[0])     # Output: [1, 2, 3]
 print(matrix[1][1])  # Output: 5
 ```
 ---
+## Homework
+
+### 1. List Manipulation Exercise
+- Create a list of 5 items (strings or numbers).
+- Add a new item to the end of the list and another at the second position.
+- Remove the third item from the list.
+- Print the list after each operation.
+
+### 2. Reverse and Sort a List
+- Create a list of numbers and:
+  - Sort it in descending order.
+  - Reverse the sorted list and print it.
