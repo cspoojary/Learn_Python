@@ -157,3 +157,21 @@ numbers.sort()
 print(numbers)  # Output: [1, 2, 5, 9]
 ```
 ---
+
+## 6. Nested Lists
+Lists can contain other lists, allowing you to create **nested lists**.  
+This can be useful for storing **matrix-like data structures**.
+
+### Example:
+```python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Accessing elements in a nested list
+print(matrix[0])     # Output: [1, 2, 3]
+print(matrix[1][1])  # Output: 5
+```
+---
