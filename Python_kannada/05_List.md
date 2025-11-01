@@ -108,3 +108,23 @@ print(numbers[2:])   # Output: [2, 3, 4, 5, 6]
 print(numbers[::2])  # Output: [0, 2, 4, 6]
 ```
 ---
+## 5. List Functions and Methods
+
+### 5.1 Common Functions:
+#### len(list): Returns the number of elements in the list.
+```python
+fruits = ["apple", "banana", "cherry"]
+print(len(fruits))  # Output: 3
+```
+
+#### sorted(list): Returns a new sorted list without changing the original list.
+```python
+numbers = [5, 2, 9, 1]
+print(sorted(numbers))  # Output: [1, 2, 5, 9]
+print(numbers)  # Original list remains unchanged: [5, 2, 9, 1]
+```
+
+#### sum(list): Returns the sum of elements in a list (for numerical lists).
+```python
+numbers = [1, 2, 3, 4]
+print(sum(numbers))  # Output: 10
