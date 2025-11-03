@@ -66,5 +66,4 @@ You can check if an item exists in a tuple using the **in** operator.
 ```python
 print("apple" in fruits)  # Output: True
 ```
-
 ---
