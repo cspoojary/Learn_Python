@@ -89,5 +89,4 @@ print(my_tuple.index("banana"))  # Output: 1
 - **Immutable:** Data cannot be changed after creation.
 - **Faster than Lists:** Tuples are generally faster than lists.
 - **Can Be Used as Keys in Dictionaries:** Since tuples are hashable, they can be used as dictionary keys.
-
 ---
