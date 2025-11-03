@@ -85,3 +85,9 @@ my_tuple = ("apple", "banana", "cherry")
 print(my_tuple.index("banana"))  # Output: 1
 ```
 ---
+## 5. Advantages of Using Tuples
+- **Immutable:** Data cannot be changed after creation.
+- **Faster than Lists:** Tuples are generally faster than lists.
+- **Can Be Used as Keys in Dictionaries:** Since tuples are hashable, they can be used as dictionary keys.
+
+---
