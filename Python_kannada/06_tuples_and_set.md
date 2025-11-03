@@ -67,3 +67,22 @@ You can check if an item exists in a tuple using the **in** operator.
 print("apple" in fruits)  # Output: True
 ```
 ---
+## 4. Tuple Methods
+
+Though tuples are immutable, Python provides some built-in methods for working with tuples.
+
+### count()
+Returns the number of times an element appears in the tuple.
+```python
+my_tuple = (1, 2, 3, 1, 1)
+print(my_tuple.count(1))  # Output: 3
+```
+
+### index()
+Returns the index of the first occurrence of an element.
+```python
+my_tuple = ("apple", "banana", "cherry")
+print(my_tuple.index("banana"))  # Output: 1
+```
+
+---
