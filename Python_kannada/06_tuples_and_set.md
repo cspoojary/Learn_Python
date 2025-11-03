@@ -40,5 +40,4 @@ You can also slice tuples to access a subset of the elements.
 ```python
 print(fruits[1:3])  # Output: ('banana', 'cherry')
 ```
-
 ---
