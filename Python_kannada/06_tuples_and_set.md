@@ -23,3 +23,22 @@ To create a tuple with only one element, include a trailing comma:
 single_element_tuple = ("apple",)
 ```
 ---
+## 2. Accessing Tuple Elements
+
+You can access elements in a tuple using indexing, just like with lists.  
+Tuples also support **negative indexing**.
+
+### Example
+```python
+fruits = ("apple", "banana", "cherry")
+print(fruits[0])   # Output: apple
+print(fruits[-1])  # Output: cherry
+```
+
+### Slicing Tuples
+You can also slice tuples to access a subset of the elements.
+```python
+print(fruits[1:3])  # Output: ('banana', 'cherry')
+```
+
+---
