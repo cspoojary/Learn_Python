@@ -84,5 +84,4 @@ Returns the index of the first occurrence of an element.
 my_tuple = ("apple", "banana", "cherry")
 print(my_tuple.index("banana"))  # Output: 1
 ```
-
 ---
