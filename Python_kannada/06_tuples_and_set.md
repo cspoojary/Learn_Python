@@ -22,5 +22,4 @@ To create a tuple with only one element, include a trailing comma:
 ```python
 single_element_tuple = ("apple",)
 ```
-
 ---
