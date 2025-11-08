@@ -115,3 +115,37 @@ for n in num:
     count = count + 1
 print("The length of the digit:",count)
 ```
+### 3: Python program to find the factorial of a given number.
+```Python
+num = int(input("Enter number of factorial: "))
+count = 1
+for i in range(1,num+1):
+    count = count * i
+
+print("The factorial of number is: ",count)
+```
+    
+### 4:Python program to convert the month name to a number of days.
+```Python
+month = input("Enter the month: ")
+
+month_31 = ('January', 'March', 'May', 'July', 'August', 'October', 'December')
+month_30 = ('April', 'June', 'September', 'November')
+month_29 = 'February'
+
+for m in month_31:
+    if month == m:
+        print("The number of days in", month, "is 31.")
+        break
+else:
+    for m in month_30:
+        if month == m:
+            print("The number of days in", month, "is 30.")
+            break
+    else:
+        if month == month_29:
+            print("The number of days in", month, "is 28 or 29.")
+            print("If the number of days is 29, then it is a leap year.")
+        else:
+            print("Just check your input! :)")
+```
