@@ -172,3 +172,19 @@ for i in range(10):
     print(num)
     num = num+1
 ```
+### 7. Calculate the sum of numbers from 1 to 10 using a for loop: 
+```Python
+number = input("Enter the number:")
+sum = 0
+for i in number:
+    i = int(i)
+    sum = sum + i
+print(sum)
+```
+
+### 8. Print the elements of a list using a for loop:
+```Python
+list1 = ['Chaithanya','Chethan','Shreyash','Peethu','Pratham','Pranish','Manish'] 
+for i in list1:
+    print(i)
+```
