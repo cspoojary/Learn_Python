@@ -49,3 +49,16 @@ while num <= 10:
     print("Integer is",num,"and its square is",num**2)
     num = num+1
 ```
+### 3. Write for loop statement to print the following series: 105,98,91 ……. 7 
+```Python
+count = 105
+while count > 0:
+    print(count,end=' ')
+    count = count - 7
+```
+or
+
+```Python
+for i in range(105,0,-7):
+    print(i, end = ' ')
+```
