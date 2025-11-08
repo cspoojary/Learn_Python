@@ -40,3 +40,12 @@ while count <= 10:
     num = num + 1
     count = count + 1
 ```
+
+### 2. Write a Python program that prints the first 10 integers and their squares using a while loop .
+```Python
+num = 1
+print("The first 10 integers and their squares are:")
+while num <= 10:
+    print("Integer is",num,"and its square is",num**2)
+    num = num+1
+```
