@@ -21,3 +21,12 @@ while count <= 10:
         count = count+1
     num = num + 1
 ```
+
+  #### c) The first 10 natural numbers 
+```Python
+num = 1
+print("The first 10 naturals numbers:" )
+while num <= 10:
+    print(num)
+    num = num + 1
+```
