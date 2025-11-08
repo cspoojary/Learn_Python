@@ -149,3 +149,26 @@ else:
         else:
             print("Just check your input! :)")
 ```
+### 5. Print numbers in reverse from 10 to 1 using a for loop:
+```Python
+for i in range(10,0,-1):
+    print(i,end=' ')'''
+
+'''num  = 10
+for i in range(10):
+    print(num)
+    num = num - 1
+```
+
+### 6. Print numbers from 1 to 10 using a for loop: 
+```Python
+for i in range(1,11):
+    print(i)
+```
+
+```Python
+num = 1
+for i in range(10):
+    print(num)
+    num = num+1
+```
