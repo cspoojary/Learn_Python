@@ -62,3 +62,13 @@ or
 for i in range(105,0,-7):
     print(i, end = ' ')
 ```
+### 4. Write a Python program that print  first 10 natural numbers using while loop in reverse order.
+```Python
+num = 10
+count = 1
+print("The first 10 natural number in the reverse order.")
+while count <= 10:
+    print(num)
+    num = num - 1
+    count = count + 1
+```
