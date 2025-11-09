@@ -222,3 +222,14 @@ for ch in string1:
         count = count + 1
 print("The vowel count of the",string1,'is',count)
 ```
+### 13. Find all prime numbers between 1 and 50 using nested for and if:
+```Python
+for i in range(1,51):
+    is_prime = True
+    for j in range(2,i):
+        if i%j == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(i)
+```
