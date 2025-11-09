@@ -241,3 +241,18 @@ for i in range(1,21):
     else: 
         continue
 ```
+### 17. Print the Fibonacci sequence up to the 10th term using a loop:
+```Python
+n = int(input("Enter how many terms you want: "))
+
+first = 0
+second = 1
+
+print('Fibonacci Series: ')
+
+for i in range(n):
+    print(first,end = ' ')
+    next = first + second
+    first = second
+    second = next
+```
