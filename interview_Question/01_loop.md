@@ -202,3 +202,13 @@ name = input("Enter your name: ")
 for ch in name:
     print(ch)
 ```
+### 11. Find the largest number in a list using a for loop: 
+```Python
+list1 = [4, 8,10,2]
+initial = list1[0]
+
+for i in list1:
+    if i > initial:
+        initial = i
+print("The largest numbeis :",initial)
+```
