@@ -212,3 +212,13 @@ for i in list1:
         initial = i
 print("The largest numbeis :",initial)
 ```
+### 12. Count the number of vowels in a string using a for loop:
+```Python
+vowels = ['a','i','o','u','e','A','E','I','O','U']
+string1 = input("Enter the String: ")
+count = 0
+for ch in string1:
+    if ch in vowels:
+        count = count + 1
+print("The vowel count of the",string1,'is',count)
+```
