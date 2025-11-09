@@ -196,3 +196,9 @@ for i in list1:
     product = product*i
 print(product)
 ```
+### 10. Print characters of a string using a for loop: 
+```Python
+name = input("Enter your name: ")
+for ch in name:
+    print(ch)
+```
