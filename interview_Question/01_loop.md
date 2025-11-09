@@ -188,3 +188,11 @@ list1 = ['Chaithanya','Chethan','Shreyash','Peethu','Pratham','Pranish','Manish'
 for i in list1:
     print(i)
 ```
+### 9. Calculate the product of elements in a list using a for loop: 
+```Python
+list1 = [3,6,9,22,67]
+product = 1
+for i in list1:
+    product = product*i
+print(product)
+```
