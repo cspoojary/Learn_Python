@@ -1,4 +1,4 @@
-## Dictionaries in Python
+# Dictionaries in Python
 
 A **dictionary** in Python is a collection of key-value pairs. Each key
 in a dictionary is associated with a value, and you can retrieve or
@@ -70,6 +70,30 @@ print(karnataka_food)
 
 ``` python
 karnataka_food["Bengaluru"] = "Ragi Mudde"
+```
+
+------------------------------------------------------------------------
+## 4. Removing Elements from a Dictionary
+
+You can remove items from a dictionary using several methods:
+
+### `pop()` --- Removes the specified key and returns the associated value.
+
+``` python
+mysuru_food = karnataka_food.pop("Mysuru")
+print(mysuru_food)  # Output: Mysore Pak
+```
+
+### `del` --- Removes the specified key.
+
+``` python
+del karnataka_food["Mangaluru"]
+```
+
+### `clear()` --- Empties the dictionary.
+
+``` python
+karnataka_food.clear()
 ```
 
 ------------------------------------------------------------------------
