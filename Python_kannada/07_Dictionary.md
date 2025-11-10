@@ -97,3 +97,21 @@ karnataka_food.clear()
 ```
 
 ------------------------------------------------------------------------
+## 5. Dictionary Methods
+
+Here are some common methods available for dictionaries:
+
+  ---------------------------------------------------------------------------------------------------
+  Method            Description                     Example
+  ----------------- ------------------------------- -------------------------------------------------
+  `keys()`          Returns all the keys            `print(karnataka_food.keys())`
+
+  `values()`        Returns all the values          `print(karnataka_food.values())`
+
+  `items()`         Returns key-value pairs as      `print(karnataka_food.items())`
+                    tuples                          
+
+  `update()`        Updates dictionary with another `karnataka_food.update({"Hubballi": "Girmit"})`
+  ---------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
