@@ -115,3 +115,11 @@ Here are some common methods available for dictionaries:
   ---------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
+## 6. Dictionary Characteristics
+
+-   **Unordered**: Dictionary keys are not stored in any particular
+    order.\
+-   **Mutable**: You can change, add, or remove items.\
+-   **Keys Must Be Immutable**: Keys must be of a data type that is
+    immutable, such as string, number, or tuple.\
+-   **Unique Keys**: Dictionaries cannot have duplicate keys.
