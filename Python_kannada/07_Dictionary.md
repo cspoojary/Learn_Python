@@ -130,3 +130,24 @@ Here are some common methods available for dictionaries:
 | **Duplicates**| Allows duplicates| Allows duplicates| No duplicates    | Keys: No duplicates |
 | **Indexing**  | Supports indexing| Supports indexing| No indexing      | Uses keys         |
 | **Structure** | Indexed collection | Indexed collection | Unordered collection | Key-value pairs |
+
+-----
+
+## Homework
+
+### **Basic Dictionary Operations:**
+
+1.  Create a dictionary to store information about **5 cities in
+    Karnataka** and their **famous dishes**.\
+2.  Add a new city and its dish to the dictionary.\
+3.  Update the dish for **Bengaluru**.\
+4.  Remove one city from the dictionary.\
+5.  Use the `keys()` method to print all city names in the dictionary.\
+6.  Use the `values()` method to print all dishes in the dictionary.
+
+### **Nested Dictionary Practice (Simple for now):**
+
+1.  Create a dictionary to store details of **two of your friends**,
+    including their **names**, **favorite subject**, and **favorite
+    food**.\
+2.  Access and print the favorite food of one friend.
