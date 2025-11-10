@@ -101,18 +101,13 @@ karnataka_food.clear()
 
 Here are some common methods available for dictionaries:
 
-  ---------------------------------------------------------------------------------------------------
-  Method            Description                     Example
-  ----------------- ------------------------------- -------------------------------------------------
-  `keys()`          Returns all the keys            `print(karnataka_food.keys())`
 
-  `values()`        Returns all the values          `print(karnataka_food.values())`
-
-  `items()`         Returns key-value pairs as      `print(karnataka_food.items())`
-                    tuples                          
-
-  `update()`        Updates dictionary with another `karnataka_food.update({"Hubballi": "Girmit"})`
-  ---------------------------------------------------------------------------------------------------
+| Method      | Description                     | Example |
+|--------------|----------------------------------|----------|
+| `keys()`     | Returns all the keys             | `print(karnataka_food.keys())` |
+| `values()`   | Returns all the values           | `print(karnataka_food.values())` |
+| `items()`    | Returns key-value pairs as tuples| `print(karnataka_food.items())` |
+| `update()`   | Updates dictionary with another  | `karnataka_food.update({"Hubballi": "Girmit"})` |
 
 ------------------------------------------------------------------------
 ## 6. Dictionary Characteristics
@@ -123,3 +118,15 @@ Here are some common methods available for dictionaries:
 -   **Keys Must Be Immutable**: Keys must be of a data type that is
     immutable, such as string, number, or tuple.\
 -   **Unique Keys**: Dictionaries cannot have duplicate keys.
+
+
+
+## 7. Differences Between Lists, Tuples, Sets, and Dictionaries
+
+| Feature      | List             | Tuple            | Set              | Dictionary        |
+|---------------|------------------|------------------|------------------|-------------------|
+| **Ordering**  | Ordered          | Ordered          | Unordered        | Unordered         |
+| **Mutability**| Mutable          | Immutable        | Mutable          | Mutable           |
+| **Duplicates**| Allows duplicates| Allows duplicates| No duplicates    | Keys: No duplicates |
+| **Indexing**  | Supports indexing| Supports indexing| No indexing      | Uses keys         |
+| **Structure** | Indexed collection | Indexed collection | Unordered collection | Key-value pairs |
