@@ -49,3 +49,50 @@ list1.append(40)
 print('list1 = ',list1)
 print('list2 = ',list2)
 ```
+### Count Data Types in a List
+```python
+data = [1, "hi", 3.5, True, [1,2], (4,5),2]
+
+type_count = {}
+
+for i in data:
+    t = type(i)
+    type_count[t] = type_count.get(t,0)+1
+
+for t,c in type_count.items():
+    print(f"{t.__name__}:{c}")
+```
+
+### Sum of Digits from a String
+```python
+Input= "a1b2c3"
+sum = 0
+for i in Input:
+    if i.isdigit():
+        i = int(i)
+        sum = sum + i
+print(sum)
+print(sum(int(i) for i in "a1b2c3" if i.isdigit()))
+```
+
+### Convert Temperature
+```python
+print("Temperature Conversion")
+print("1. Celsius to Fahrenheit")
+print("2. Fahrenheit to Celsius")
+
+choice = int(input("Enter your choice (1 or 2): "))
+
+if choice == 1:
+    celsius = float(input("Enter temperature in Celsius: "))
+    fahrenheit = (celsius * 9/5) + 32
+    print(f"{celsius}°C = {fahrenheit}°F")
+
+elif choice == 2:
+    fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+    celsius = (fahrenheit - 32) * 5/9
+    print(f"{fahrenheit}°F = {celsius}°C")
+
+else:
+    print("Invalid choice! Please enter 1 or 2.")
+```
