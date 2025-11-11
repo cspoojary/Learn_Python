@@ -57,6 +57,7 @@ print('list1 = ',list1)
 print('list2 = ',list2)
 ```
 ### Count Data Types in a List
+#### Given a list with mixed data types, count how many elements belong to each type.
 ```python
 data = [1, "hi", 3.5, True, [1,2], (4,5),2]
 
@@ -83,6 +84,7 @@ print(sum(int(i) for i in "a1b2c3" if i.isdigit()))
 ```
 
 ### Convert Temperature
+#### Write a Python program to convert a temperature from Celsius to Fahrenheit and vice versa
 ```python
 print("Temperature Conversion")
 print("1. Celsius to Fahrenheit")
@@ -103,8 +105,13 @@ elif choice == 2:
 
 else:
     print("Invalid choice! Please enter 1 or 2.")
+# C → F: F = (C × 9/5) + 32
+# F → C: C = (F − 32) × 5/9
+
 ```
 ### Dynamic Variable Creation
+#### Write a Python program that dynamically creates a variable name using a dictionary or globals() and assigns it a value.
+variable = {}
 ```python
 variable = {}
 
@@ -117,6 +124,7 @@ print(f"Variable '{name}' created with value: {variable[name]}")
 ```
 
 ### Variable Scope Demo
+#### Write a program to show the difference between local and global variables inside a function.
 ```python
 x = 10
 
