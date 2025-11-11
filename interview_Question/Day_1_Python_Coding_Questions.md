@@ -30,3 +30,22 @@ print(type(flt))
 name = 'Chaithanya'
 print(type(name))
 ```
+### Multiple Assignment
+```python
+a,b,c = 3,4,7
+print('a =',a)
+print('b =',b)
+print('c =',c)
+```
+
+### Immutable vs Mutable Behavior
+```python
+list1 = [10,20,30]
+
+list2 = list1
+
+list1.append(40)
+
+print('list1 = ',list1)
+print('list2 = ',list2)
+```
