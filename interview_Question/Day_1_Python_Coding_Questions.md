@@ -90,9 +90,34 @@ if choice == 1:
 
 elif choice == 2:
     fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
     celsius = (fahrenheit - 32) * 5/9
     print(f"{fahrenheit}°F = {celsius}°C")
 
 else:
     print("Invalid choice! Please enter 1 or 2.")
+```
+### Dynamic Variable Creation
+```python
+variable = {}
+
+name = input("Enter variable name: ")
+value = input("Enter variable value: ")
+
+variable[name] = value
+
+print(f"Variable '{name}' created with value: {variable[name]}")
+```
+
+### Variable Scope Demo
+```python
+x = 10
+
+def change_global():
+    global x
+    x = 20  # modifies global x
+    print("Inside function:", x)
+
+change_global()
+print("Outside function:", x)
 ```
