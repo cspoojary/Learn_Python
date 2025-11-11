@@ -1,6 +1,7 @@
 # Day 1 — Python Coding Questions: Data Types & Variables
 
 ### Swap Two Variables
+#### Write a Python program to swap two variables without using a third variable.'''
 ```python
 a = 5
 b = 6
@@ -16,6 +17,8 @@ print('a=',a,'and b =',b)
 ```
 
 ### Type Conversion
+#### Write a program that takes a number as a string (e.g., "123") and converts it to an integer and a float.
+
 ```python
 str1 = "123"
 print(type(str1))
@@ -26,6 +29,8 @@ print(type(flt))
 ```
 
 ### Data Type Identification
+#### Write a Python function that takes any value and prints its type (e.g., int, float, str, list, etc.).
+
 ```python
 name = 'Chaithanya'
 print(type(name))
