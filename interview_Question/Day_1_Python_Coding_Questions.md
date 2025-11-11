@@ -36,6 +36,7 @@ name = 'Chaithanya'
 print(type(name))
 ```
 ### Multiple Assignment
+#### Write a program to assign values to multiple variables in a single line and print them.'''
 ```python
 a,b,c = 3,4,7
 print('a =',a)
@@ -44,6 +45,7 @@ print('c =',c)
 ```
 
 ### Immutable vs Mutable Behavior
+#### Write a program showing how modifying one variable affects another when both reference the same list.
 ```python
 list1 = [10,20,30]
 
