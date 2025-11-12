@@ -44,3 +44,31 @@ if time == 20:
 else:
     print("It's not dinner time yet.")
 ```
+## 3. The elif Statement
+
+The `elif` (short for "else if") statement checks another condition if the previous `if` or `elif` condition was `False`.
+
+### Syntax:
+```python
+if condition1:
+    # Code block if condition1 is True
+elif condition2:
+    # Code block if condition2 is True
+else:
+    # Code block if none of the above conditions are True
+```
+
+### Example:
+```python
+time = 15  # 3 PM
+
+if time == 8:
+    print("It's breakfast time!")
+elif time == 13:
+    print("It's lunch time!")
+elif time == 20:
+    print("It's dinner time!")
+else:
+    print("It's not a meal time.")
+```
+---
