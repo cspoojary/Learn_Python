@@ -163,3 +163,32 @@ else:
     print("You are not eligible to vote.")
 ```
 ---
+## 9. The match-case Statement (Python 3.10+)
+
+Starting from Python 3.10, you can use the `match-case` statement for pattern matching.
+
+### Syntax:
+```python
+match variable:
+    case value1:
+        # Code block for value1
+    case value2:
+        # Code block for value2
+    case _:
+        # Default case (like else)
+```
+
+### Example:
+```python
+day = "Sunday"
+
+match day:
+    case "Monday":
+        print("Start of the work week.")
+    case "Friday":
+        print("Almost weekend!")
+    case "Saturday" | "Sunday":
+        print("It's the weekend!")
+    case _:
+        print("Just another weekday.")
+```
