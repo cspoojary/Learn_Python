@@ -116,3 +116,21 @@ if age < 18 and has_student_id:
 else:
     print("You are not eligible for the student discount.")
 ```
+---
+
+## 6. Example: Checking Bus Ticket Prices
+
+```python
+age = 65
+
+if age < 5:
+    print("Ticket is free.")
+elif age <= 12:
+    print("You get a child discount.")
+elif age >= 60:
+    print("You get a senior citizen discount.")
+else:
+    print("You pay the full fare.")
+```
+
+---
