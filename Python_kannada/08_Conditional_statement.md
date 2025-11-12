@@ -148,3 +148,18 @@ else:
     print("It's a weekday, let's wait for the weekend.")
 ```
 ---
+## 8. Indentation in Python
+
+Python uses **indentation** to define blocks of code.
+
+### Example:
+```python
+age = 19
+
+if age >= 18:
+    print("You are eligible to vote.")
+    print("Remember to bring your voter ID.")
+else:
+    print("You are not eligible to vote.")
+```
+---
