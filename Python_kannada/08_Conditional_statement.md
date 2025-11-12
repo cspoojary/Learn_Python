@@ -72,3 +72,26 @@ else:
     print("It's not a meal time.")
 ```
 ---
+## 4. Comparison Operators in if Statements
+
+You can use comparison operators to compare values in `if` statements:
+
+| Operator | Description |
+|-----------|--------------|
+| `==` | Equal to |
+| `!=` | Not equal to |
+| `<` | Less than |
+| `>` | Greater than |
+| `<=` | Less than or equal to |
+| `>=` | Greater than or equal to |
+
+### Example:
+```python
+age = 19
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+```
+---
