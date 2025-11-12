@@ -95,3 +95,24 @@ else:
     print("You are not eligible to vote.")
 ```
 ---
+
+## 5. Logical Operators in if Statements
+
+You can also use logical operators to combine multiple conditions:
+
+| Operator | Description |
+|-----------|--------------|
+| `and` | Returns True if both conditions are True |
+| `or` | Returns True if at least one condition is True |
+| `not` | Reverses the result of a condition |
+
+### Example:
+```python
+age = 16
+has_student_id = True
+
+if age < 18 and has_student_id:
+    print("You are eligible for the student discount!")
+else:
+    print("You are not eligible for the student discount.")
+```
