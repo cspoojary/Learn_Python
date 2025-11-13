@@ -86,3 +86,24 @@ That's enough counting!
 ```
 
 ---
+## 5. Using `continue` to Skip an Iteration
+
+```python
+sheep_count = 1
+while sheep_count <= 5:
+    if sheep_count == 4:
+        sheep_count += 1
+        continue
+    print(f"Sheep {sheep_count}")
+    sheep_count += 1
+```
+
+**Output:**
+```
+Sheep 1
+Sheep 2
+Sheep 3
+Sheep 5
+```
+
+---
