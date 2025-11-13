@@ -63,3 +63,26 @@ while i <= 5:
 To fix this, always update the variable inside the loop.
 
 ---
+## 4. Using `break` to Exit a Loop
+
+```python
+sheep_count = 1
+while sheep_count <= 10:
+    print(f"Sheep {sheep_count}")
+    if sheep_count == 5:
+        print("That's enough counting!")
+        break
+    sheep_count += 1
+```
+
+**Output:**
+```
+Sheep 1
+Sheep 2
+Sheep 3
+Sheep 4
+Sheep 5
+That's enough counting!
+```
+
+---
