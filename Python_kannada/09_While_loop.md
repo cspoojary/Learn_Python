@@ -49,3 +49,17 @@ Sheep 10
 ```
 
 ---
+## 3. Avoiding Infinite Loops
+
+An infinite loop occurs when the condition never becomes `False`.
+
+**Example of Infinite Loop:**
+```python
+i = 1
+while i <= 5:
+    print(i)  # Forgot to update i
+```
+
+To fix this, always update the variable inside the loop.
+
+---
