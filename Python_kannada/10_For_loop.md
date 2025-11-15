@@ -32,3 +32,26 @@ for city in cities:
     Mysuru
     Hubballi
     Mangaluru
+---
+## 2. Using range() with for Loops
+
+The `range()` function generates a sequence of numbers.
+
+**Syntax:**
+
+    range(start, stop, step)
+
+**Example: Counting from 1 to 10**
+
+``` python
+for i in range(1, 11):
+    print(i)
+```
+
+**Example: Counting by 2s**
+
+``` python
+for i in range(1, 11, 2):
+    print(i)
+```
+---
