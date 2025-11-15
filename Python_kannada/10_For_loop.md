@@ -55,3 +55,11 @@ for i in range(1, 11, 2):
     print(i)
 ```
 ---
+## 3. Looping Over Strings
+
+``` python
+name = "Karnataka"
+for letter in name:
+    print(letter)
+```
+---
