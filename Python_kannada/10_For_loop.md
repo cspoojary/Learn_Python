@@ -94,3 +94,20 @@ for city in cities:
     print(city)
 ```
 ---
+## 7. Looping with enumerate()
+
+``` python
+for index, city in enumerate(cities):
+    print(f"City {index + 1}: {city}")
+```
+---
+
+## 8. Using else with for Loops
+
+``` python
+for city in cities:
+    print(city)
+else:
+    print("No more cities!")
+```
+---
