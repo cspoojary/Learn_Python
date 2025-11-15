@@ -85,3 +85,12 @@ for city in cities:
     print(city)
 ```
 ---
+## 6. Using continue in a for Loop
+
+``` python
+for city in cities:
+    if city == "Hubballi":
+        continue
+    print(city)
+```
+---
