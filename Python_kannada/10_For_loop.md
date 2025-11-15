@@ -74,3 +74,14 @@ for i in range(1, 6):
     print()
 ```
 ---
+## 5. Using break in a for Loop
+
+``` python
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+for city in cities:
+    if city == "Hubballi":
+        print(f"Found {city}!")
+        break
+    print(city)
+```
+---
