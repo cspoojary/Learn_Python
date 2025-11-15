@@ -111,3 +111,34 @@ else:
     print("No more cities!")
 ```
 ---
+## 9. Real-Life Example: Distributing Laddus
+
+``` python
+laddus = 5
+friends = ["Rahul", "Sneha", "Aman", "Priya"]
+
+for friend in friends:
+    if laddus > 0:
+        print(f"{friend} gets a laddu!")
+        laddus -= 1
+    else:
+        print("No laddus left!")
+```
+---
+## Homework
+
+### 1. Multiples of 3
+
+Print all multiples of 3 between 1 and 30.
+
+### 2. Sum of First 10 Numbers
+
+Calculate the sum of numbers from 1 to 10.
+
+### 3. Print Your Name Letter by Letter
+
+Input your name and print each letter.
+
+### 4. Count Vowels in a String
+
+Count how many vowels are in a given string.
