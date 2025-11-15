@@ -63,3 +63,14 @@ for letter in name:
     print(letter)
 ```
 ---
+## 4. Nested for Loops
+
+Example: Multiplication Table
+
+``` python
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(f"{i} x {j} = {i * j}")
+    print()
+```
+---
