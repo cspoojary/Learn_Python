@@ -83,3 +83,25 @@ print(student_marks)
 ```
 
 ------------------------------------------------------------------------
+# 4. List Comprehension
+
+### Example: Squares
+
+``` python
+numbers = [1, 2, 3, 4, 5]
+squares = [num ** 2 for num in numbers]
+```
+
+### Example: Even numbers
+
+``` python
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = [num for num in numbers if num % 2 == 0]
+```
+
+### Example: Uppercase Kannada cities
+
+``` python
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+uppercased_cities = [city.upper() for city in cities]
+```
