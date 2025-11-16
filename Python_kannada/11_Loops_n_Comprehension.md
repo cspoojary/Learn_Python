@@ -146,7 +146,30 @@ words = sentence.split()
 data = "apple,banana,mango"
 fruits = data.split(",")
 ```
+## Homework
 
+1.  **List Manipulation**: Create a list of Kannada foods and convert to
+    uppercase using list comprehension.
+2.  **Sum of Prices**: Create a dictionary of 5 items with prices and
+    calculate total using loop.
+3.  **List of Squares**: Use list comprehension for squares from 1--10.
+4.  **Student Data**: Create list of dictionaries and print student
+    details.
+5.  **Dictionary Comprehension**: Filter cities with population above 10
+    lakhs.
+6.  **Nested List Challenge**:
+    -   Print matrix row by row
+    -   Print sum of each row
+
+### Example Matrix:
+
+``` python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+```
 ### Example: Limit splits
 
 ``` python
