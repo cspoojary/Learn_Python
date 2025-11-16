@@ -40,3 +40,29 @@ for food in foods:
 ```
 
 ------------------------------------------------------------------------
+## 2. Looping Through Dictionaries
+
+### Example: Iterating over dictionary keys
+
+``` python
+student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
+
+for student in student_marks:
+    print(student)
+```
+
+### Example: Iterating over dictionary values
+
+``` python
+for marks in student_marks.values():
+    print(marks)
+```
+
+### Example: Iterating over both keys and values
+
+``` python
+for student, marks in student_marks.items():
+    print(f"{student} scored {marks} marks")
+```
+
+------------------------------------------------------------------------
