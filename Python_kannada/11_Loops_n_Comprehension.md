@@ -98,7 +98,33 @@ squares = [num ** 2 for num in numbers]
 numbers = [1, 2, 3, 4, 5, 6]
 even_numbers = [num for num in numbers if num % 2 == 0]
 ```
+## 5. Dictionary Comprehension
 
+### Example: Squares dictionary
+
+``` python
+numbers = [1, 2, 3, 4, 5]
+squares_dict = {num: num ** 2 for num in numbers}
+```
+
+### Example: Name length dictionary
+
+``` python
+names = ["Anand", "Geetha", "Kumar"]
+name_lengths = {name: len(name) for name in names}
+```
+
+### Example: Filter cities above 10 lakhs
+
+``` python
+city_population = {
+    "Bengaluru": 84,
+    "Mysuru": 11,
+    "Hubballi": 9,
+    "Mangaluru": 5
+}
+large_cities = {city: population for city, population in city_population.items() if population > 10}
+```
 ### Example: Uppercase Kannada cities
 
 ``` python
