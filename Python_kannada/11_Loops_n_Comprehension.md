@@ -131,3 +131,25 @@ large_cities = {city: population for city, population in city_population.items()
 cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
 uppercased_cities = [city.upper() for city in cities]
 ```
+## 6. Splitting Strings
+
+### Example: Split sentence
+
+``` python
+sentence = "I love coding in Python"
+words = sentence.split()
+```
+
+### Example: Split with comma
+
+``` python
+data = "apple,banana,mango"
+fruits = data.split(",")
+```
+
+### Example: Limit splits
+
+``` python
+sentence = "Python is fun to learn"
+words = sentence.split(" ", 2)
+```
