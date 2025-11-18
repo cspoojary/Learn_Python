@@ -184,3 +184,36 @@ for i in number:
     sum = sum + i
 print(sum)
 ```
+## 8. Print the elements of a list using a for loop:
+```python
+list1 = ['Chaithanya','Chethan','Shreyash','Peethu','Pratham','Pranish','Manish'] 
+for i in list1:
+    print(i)
+```
+
+## 9. Calculate the product of elements in a list using a for loop: 
+```Python
+list1 = [3,6,9,22,67]
+product = 1
+for i in list1:
+    product = product*i
+print(product)
+```
+
+## 10. Print characters of a string using a for loop: 
+```Python
+name = input("Enter your name: ")
+for ch in name:
+    print(ch)
+```
+
+## 11. Find the largest number in a list using a for loop: 
+```Python
+list1 = [4, 8,10,2]
+initial = list1[0]
+
+for i in list1:
+    if i > initial:
+        initial = i
+print("The largest numbeis :",initial)
+```
