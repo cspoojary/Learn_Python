@@ -70,7 +70,7 @@ while count <= 10:
     count = count + 1
 ```
 
-## 5.Write a program to print table of a number entered from the user.
+## 5. Write a program to print table of a number entered from the user.
 ```Python
 num = int(input("Enter number of the table:"))
 length_of_table = int(input("how much row you need: "))
@@ -80,7 +80,7 @@ while count <= length_of_table:
     count = count + 1
 ```
 
-## 6.Prime or not using while For loop.
+## 6. Prime or not using while For loop.
 ```Python
 num = int(input("Enter the number: "))
 
@@ -98,7 +98,7 @@ else:
 ```
 ---
 # FOR LOOP
-## 1: Python program to print a multiplication table of a given number.
+## 1. Python program to print a multiplication table of a given number.
 ```Python
 num = int(input("Enter the number of the table:"))
 length_of_table = int(input("Enter the length of the table."))
@@ -106,7 +106,7 @@ for n in range(1,length_of_table+1):
     print(num,'x',n,'=',num*n)
 ```
 
-## 2: Python program to count the total number of digits in a number.
+## 2. Python program to count the total number of digits in a number.
 ```Python
 num = input("Enter the number: ")
 count = 0
@@ -115,7 +115,7 @@ for n in num:
     count = count + 1
 print("The length of the digit:",count)
 ```  
-## 3: Python program to find the factorial of a given number.
+## 3. Python program to find the factorial of a given number.
 ```Python
 um = int(input("Enter number of factorial: "))
 count = 1
@@ -125,7 +125,7 @@ for i in range(1,num+1):
 print("The factorial of number is: ",count)
 ```
     
-## 4:Python program to convert the month name to a number of days.
+## 4. Python program to convert the month name to a number of days.
 ```Python
 month = input("Enter the month: ")
 
@@ -249,7 +249,7 @@ for i in range(1,21):
         continue
 ```
 
-## 17. Print the Fibonacci sequence up to the 10th term using a  loop:
+## 15. Print the Fibonacci sequence up to the 10th term using a  loop:
 ```Python
 n = int(input("Enter how many terms you want: "))
 
@@ -265,5 +265,5 @@ for i in range(n):
     second = next
 ```
 
-## 18. Difference between while and for 
-## 19. for loop syntax
+## 16. Difference between while and for 
+## 17. for loop syntax
