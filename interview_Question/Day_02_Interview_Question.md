@@ -79,3 +79,20 @@ while count <= length_of_table:
     print(num,'x',count,'=',num*count)
     count = count + 1
 ```
+
+## 7.prime or not using while For loop.
+```Python
+num = int(input("Enter the number: "))
+
+if num > 1:
+    i = 2
+    while i < num:
+        if num % i == 0:
+            print(num,'is not a prime number.')
+            break
+        i += 1
+    else:
+        print(num,'is a prime number.')
+else:
+    print(num,"is not a prime number.")
+```
