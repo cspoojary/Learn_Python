@@ -96,3 +96,22 @@ if num > 1:
 else:
     print(num,"is not a prime number.")
 ```
+---
+# FOR LOOP
+## 1: Python program to print a multiplication table of a given number.
+```Python
+num = int(input("Enter the number of the table:"))
+length_of_table = int(input("Enter the length of the table."))
+for n in range(1,length_of_table+1):
+    print(num,'x',n,'=',num*n)
+```
+
+## 2: Python program to count the total number of digits in a number.
+```Python
+num = input("Enter the number: ")
+count = 0
+
+for n in num:
+    count = count + 1
+print("The length of the digit:",count)
+```  
