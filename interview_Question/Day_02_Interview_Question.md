@@ -217,3 +217,53 @@ for i in list1:
         initial = i
 print("The largest numbeis :",initial)
 ```
+## 12. Count the number of vowels in a string using a for loop:
+```Python
+vowels = ['a','i','o','u','e','A','E','I','O','U']
+string1 = input("Enter the String: ")
+count = 0
+for ch in string1:
+    if ch in vowels:
+        count = count + 1
+print("The vowel count of the",string1,'is',count)
+```
+
+## 13. Find all prime numbers between 1 and 50 using nested for and if:
+```Python
+for i in range(1,51):
+    is_prime = True
+    for j in range(2,i):
+        if i%j == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(i)
+```
+        
+## 14. Print numbers divisible by 3 or 5 from 1 to 20 using a for loop: 
+```Python
+for i in range(1,21):
+    if i%3 == 0 or i%5 == 0:
+        print(i)
+    else: 
+        continue
+```
+
+## 17. Print the Fibonacci sequence up to the 10th term using a  loop:
+```Python
+n = int(input("Enter how many terms you want: "))
+
+first = 0
+second = 1
+
+print('Fibonacci Series: ')
+
+for i in range(n):
+    print(first,end = ' ')
+    next = first + second
+    first = second
+    second = next
+```
+
+## 18. Difference between while and for 
+## 19. for loop syntax
