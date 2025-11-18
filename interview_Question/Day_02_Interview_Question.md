@@ -70,7 +70,7 @@ while count <= 10:
     count = count + 1
 ```
 
-## 5.write a program to print table of a number entered from the user.
+## 5.Write a program to print table of a number entered from the user.
 ```Python
 num = int(input("Enter number of the table:"))
 length_of_table = int(input("how much row you need: "))
@@ -80,7 +80,7 @@ while count <= length_of_table:
     count = count + 1
 ```
 
-## 7.prime or not using while For loop.
+## 6.Prime or not using while For loop.
 ```Python
 num = int(input("Enter the number: "))
 
