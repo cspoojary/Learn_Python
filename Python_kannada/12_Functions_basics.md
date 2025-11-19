@@ -29,3 +29,29 @@ greet_user("Anand")
 
 Output: Hello, Anand! Welcome to the Python course.
 ```
+### 4. Returning Values from a Function
+A function can return a value using the return keyword, which allows the output of the function to be reused elsewhere.
+#### Function that adds two numbers and returns the result
+```Python
+def add_numbers(a, b):
+return a + b
+
+result = add_numbers(10, 20)
+print("The sum is:", result)
+
+Output: The sum is: 30
+```
+### 5. Default Parameter Values
+You can define a default value for a parameter, which is used if no argument is passed when the function is called.
+#### Function with a default parameter
+```Python
+def greet(name="Student"):
+print(f"Hello, {name}! Welcome to the Python course.")
+
+greet() # Uses default value "Student"
+greet("Geetha") # Uses passed value "Geetha"
+
+Output:
+Hello, Student! Welcome to the Python course.
+Hello, Geetha! Welcome to the Python course.
+```
