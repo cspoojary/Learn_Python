@@ -1,4 +1,4 @@
-## Python Functions Basics
+# Python Functions Basics
 ### 1. Basics of Functions
 A function is a reusable block of code that performs a specific task when called. Functions are useful to organize code, make it reusable, and reduce redundancy.
 
