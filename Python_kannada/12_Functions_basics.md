@@ -11,7 +11,6 @@ You define a function using the def keyword followed by the function name, paren
 def function_name(parameters):
 # Block of code
 ```
----
 
 #### Basic function to greet a user
 ```Python
