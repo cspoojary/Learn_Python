@@ -62,17 +62,18 @@ Unlike other compiled languages like C or Java, Python executes the code line by
 ## Benefits of Interpreted Language:
 - Easier debugging: Errors are reported line by line.
 - Faster development: You can directly run the code without worrying about compiling.
-  
+
+---
 ## Key Features of Python
 Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, automatic memory management (garbage collection), a large standard library, and support for multiple programming paradigms (procedural, object-oriented, and functional).
 
-### Types of Languages
-- Low-Level Language
+- Types of Languages
+  - Low-Level Language
 Machine language consists of binary code that directly corresponds to the instructions executed by the CPU.
 0s and 1s executed directly by the CPU.
-  - **Characteristics:** Extremely fast, hardware-specific.
-  - **Not portable:** code depends on CPU architecture, Harder to learn and maintain.
-  - **Examples:** Pure machine language (binary opcodes).
+    - **Characteristics:** Extremely fast, hardware-specific.
+    - **Not portable:** code depends on CPU architecture, Harder to learn and maintain.
+    - **Examples:** Pure machine language (binary opcodes).
   
 - **High-Level Language**
 High-level programming languages use human-readable code
