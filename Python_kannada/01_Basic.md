@@ -106,3 +106,21 @@ python3 --version
 | **Current Usage** | **End-of-life since 2020**, rarely used today. | **Actively developed** and the community standard. |
 | **Backward Compatibility** | Code can be ported to Python 3 **with effort** (e.g., `2to3`). | **Not backward compatible** with Python 2. |
 | **Primary Use** | Historically used for **DevOps/legacy projects**; now obsolete. | Widely used in **software engineering, data science, AI/ML, web**, etc. |
+
+---
+## Types of Language
+- Low-Level Language
+Machine language consists of binary code that directly corresponds to the instructions executed by the CPU.
+0s and 1s executed directly by the CPU.
+
+      **Characteristics:**
+
+       Extremely fast, hardware-specific.
+
+       Not portable: code depends on CPU architecture.
+
+       Harder to learn and maintain.
+
+      **Examples:**
+
+      Pure machine language (binary opcodes).
