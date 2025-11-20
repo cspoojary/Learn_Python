@@ -112,9 +112,9 @@ python3 --version
 - Low-Level Language
 Machine language consists of binary code that directly corresponds to the instructions executed by the CPU.
 0s and 1s executed directly by the CPU.
-**Characteristics:** Extremely fast, hardware-specific.
-**Not portable:** code depends on CPU architecture, Harder to learn and maintain.
-**Examples:** Pure machine language (binary opcodes).
+  - **Characteristics:** Extremely fast, hardware-specific.
+  - **Not portable:** code depends on CPU architecture, Harder to learn and maintain.
+  - **Examples:** Pure machine language (binary opcodes).
   
 - **High-Level Language**
 High-level programming languages use human-readable code
