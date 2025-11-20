@@ -12,7 +12,7 @@ paradigms (procedural, object-oriented, and functional)**.
 - It allows developers to write clear and efficient programs for both small and large-scale projects.  
 - It was created by Guido van Rossum, and released in 1991.
 ---
-### Difference between a compiler and an interpreter.
+## Difference between a compiler and an interpreter.
 - A compiler translates the entire source code into machine code or an intermediate code
 all at once before execution. 
 - An interpreter, on the other hand, translates and executes
@@ -47,7 +47,7 @@ interpreters, while languages like C++ and Java typically use compilers.
 
 - **Versatile:**  Python can be used for almost everything — **web apps**, **data analysis**, **AI/ML**, **automation**, and more.
   
-### Why Python?
+## Why Python?
 - Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
 - Python has a simple syntax similar to the English language.
 - Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
@@ -64,11 +64,115 @@ Unlike other compiled languages like C or Java, Python executes the code line by
 - Faster development: You can directly run the code without worrying about compiling.
   
 ## Key Features of Python
-- Simple Syntax: Easy to read and write, similar to English.
-- Interpreted: Python is executed line by line.
-- Dynamically Typed: No need to declare variable types explicitly.
-- Object-Oriented: Supports OOP (Object-Oriented Programming) like classes and objects.
-- Rich Standard Library: Comes with lots of built-in modules and functions.
+Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, automatic memory management (garbage collection), a large standard library, and support for multiple programming paradigms (procedural, object-oriented, and functional).
+
+### Types of Languages
+- Low-Level Language
+Machine language consists of binary code that directly corresponds to the instructions executed by the CPU.
+0s and 1s executed directly by the CPU.
+  - **Characteristics:** Extremely fast, hardware-specific.
+  - **Not portable:** code depends on CPU architecture, Harder to learn and maintain.
+  - **Examples:** Pure machine language (binary opcodes).
+  
+- **High-Level Language**
+High-level programming languages use human-readable code
+and require compilation or interpretation before execution.
+**Characteristics:**
+    - Use natural English-like syntax.
+    - Portable across operating systems.
+    - Automatic memory management (mostly).
+    - Require a compiler or interpreter to convert to machine code.
+**Examples:**
+  **Python** (simple syntax, dynamic typing)
+  **Java** (object-oriented, runs on JVM)
+  **Python ,JavaScript**
+
+### Compiler
+A compiler translates the entire source code into machine code or an intermediate code while languages like C++ and Java typically use compilers.
+- Checks all errors before running.
+- Program runs faster after compilation.
+
+### Interpreter
+An interpreter translates and execute  code line by line.Python and JavaScript are examples of languages that use interpreters.
+- Easier debugging; errors show immediately when a faulty line runs.
+- Slower than a compiled program.
+
+### Assembler:
+Converts **assembly language** instructions  into machine code (binary).
+Low-level hardware programming, embedded systems.
+
+### Dynamically typed
+You don’t need to declare variable types explicitly. Type is determined at runtime.
+
+### Automatic Memory Management (Garbage Collection)
+Python keeps track of objects you create and automatically frees memory that’s no longer in use, so you rarely need to handle memory manually.
+
+### Debugging
+Debugging is the process of identifying and fixing errors, or bugs, in a program. It is
+crucial in programming because it ensures that the software functions correctly and
+produces the desired results.
+
+### Algorithm
+An algorithm is a step-by-step procedure or set of instructions for solving a particular problem or performing a specific task. It is a fundamental concept in programming and is used to design and implement solutions in code.
+
+### PEP8 - Program Enhancement Proposal.
+PEP 8 is the Python Enhancement Proposal that defines the style guide for writing
+Python code. It promotes consistency and readability by specifying conventions for
+naming, indentation, and code structure. Adhering to PEP 8 helps maintain clean and
+maintainable code.
+
+### PATH environment
+The purpose of the PATH environment variable during Python installation
+on Windows specifies a list of directories where executable files are located. Adding Python's installation directory to the PATH allows you to run Python from any command prompt without specifying the full path to the Python executable.
+
+### Translator:
+A translator is software that converts human-readable source code into machine-readable instructions that the computer can understand and execute.
+- Compiler
+- interpreter
+- Assembler
+
+### Python Paradigm:
+A  Paradigm is a styleot approach to structuring and thinking about code
+- Procedural (Imperative) Programming: Code is organized into procedures or functions that run step by step.
+
+def greet():
+    print("Hello!")
+greet()
+
+- Object-Oriented Programming (OOP):
+  Focuses on creating **objects** (data + behavior) using classes.
+
+class Dog:
+    def bark(self):
+        print("Woof!")
+d = Dog()
+d.bark()
+
+- Functional Programming:
+Treats computation as evaluation of **pure functions** and avoids changing state.
+
+Uses higher-order functions, `map`, `filter`, `lambda`.
+```Python
+nums = [1, 2, 3]
+squares = list(map(lambda x: x**2, nums))
+```
+---
+
+### .py and .pyc
+
+**.py**
+
+- Contains the original Python source code you write.
+- Human-readable and editable with any text editor.
+- Executed directly by the Python interpreter.
+
+**.pyc**
+
+- Compiled bytecode version of a `.py` file.
+- Generated automatically inside the `__pycache__` folder.
+- Used by Python for faster module loading during imports.
+
+---
 
 ## Checking version of Python
 ### On Windows
@@ -107,24 +211,3 @@ python3 --version
 | **Backward Compatibility** | Code can be ported to Python 3 **with effort** (e.g., `2to3`). | **Not backward compatible** with Python 2. |
 | **Primary Use** | Historically used for **DevOps/legacy projects**; now obsolete. | Widely used in **software engineering, data science, AI/ML, web**, etc. |
 
----
-## Types of Language
-- Low-Level Language
-Machine language consists of binary code that directly corresponds to the instructions executed by the CPU.
-0s and 1s executed directly by the CPU.
-  - **Characteristics:** Extremely fast, hardware-specific.
-  - **Not portable:** code depends on CPU architecture, Harder to learn and maintain.
-  - **Examples:** Pure machine language (binary opcodes).
-  
-- **High-Level Language**
-High-level programming languages use human-readable code
-and require compilation or interpretation before execution.
-**Characteristics:**
-    - Use natural English-like syntax.
-    - Portable across operating systems.
-    - Automatic memory management (mostly).
-    - Require a compiler or interpreter to convert to machine code.
-**Examples:**
-  **Python** (simple syntax, dynamic typing)
-  **Java** (object-oriented, runs on JVM)
-  **Python ,JavaScript**
