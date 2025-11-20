@@ -76,7 +76,7 @@ Machine language consists of binary code that directly corresponds to the instru
     - **Examples:** Pure machine language (binary opcodes).
   
 - **High-Level Language**
-High-level programming languages use human-readable code
+  - High-level programming languages use human-readable code
 and require compilation or interpretation before execution.
 **Characteristics:**
     - Use natural English-like syntax.
