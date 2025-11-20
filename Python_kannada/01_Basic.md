@@ -21,10 +21,11 @@ interpreters, while languages like C++ and Java typically use compilers.
 ---
 
 ## Common Uses of Python:
-- **Web Development:** Django, Flask  
-- **Data Science & Machine Learning:** Pandas, NumPy, TensorFlow, Scikit-learn  
+- **Web Development:** Django, Flask, Fast API
+- **Data Science & Machine Learning:** Pandas, NumPy, TensorFlow, Scikit-learn, Pytorch
 - **Automation & Scripting:** Automating repetitive tasks  
-- **Software Development:** Building applications and tools  
+- **Software Development:** Building applications and tools
+- **IOT & Embedded System:** MicroPython,Raspberry pi
 
 ---
 
@@ -87,3 +88,17 @@ python3 --version
 - Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
 - Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
 
+| **Parameter** | **Python 2** | **Python 3** |
+| --- | --- | --- |
+| **Release Year** | Debuted in **2000** | Debuted in **2008** |
+| **print Functionality** | `print` is a **statement** (e.g., `print "hello"`). | `print` is a **function** (e.g., `print("hello")`). |
+| **String Storage** | Default string type is **ASCII**. | Default string type is **Unicode**. |
+| **Integer Division** | `5/2` → **2** (integer quotient). | `5/2` → **2.5** (floating-point result). |
+| **Exception Syntax** | Uses `except Exception, e` **notation**. | Uses `except Exception as e` with **parentheses**. |
+| **Global Variable Leak** | Global variables can **leak inside loops**. | Global variables are **stable** and don’t leak inside loops. |
+| **Iteration Method** | Uses **`xrange()`** for efficient iteration (lazy). | Uses **`range()`**, which behaves like `xrange()` did in Python 2. |
+| **Syntax Simplicity** | **More complex**, less consistent. | **Simpler** and more intuitive. |
+| **Library Compatibility** | Many libraries are **not forward-compatible** with Python 3. | Libraries are written to be **strictly compatible** with Python 3. |
+| **Current Usage** | **End-of-life since 2020**, rarely used today. | **Actively developed** and the community standard. |
+| **Backward Compatibility** | Code can be ported to Python 3 **with effort** (e.g., `2to3`). | **Not backward compatible** with Python 2. |
+| **Primary Use** | Historically used for **DevOps/legacy projects**; now obsolete. | Widely used in **software engineering, data science, AI/ML, web**, etc. |
