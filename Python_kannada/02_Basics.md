@@ -229,9 +229,11 @@ print(type(z))
 ```Python
     import randomprint(random.randrange(1, 10))
 ```
+---
+## CASTING 
+Specify a Variable type.
 
 ---
-
 ## Homework
 
 ###  **1. Arithmetic Practice**
