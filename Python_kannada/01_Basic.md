@@ -88,6 +88,10 @@ python3 --version
 - Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
 - Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
 
+---
+
+## Difference between Python2 and Python 3
+
 | **Parameter** | **Python 2** | **Python 3** |
 | --- | --- | --- |
 | **Release Year** | Debuted in **2000** | Debuted in **2008** |
