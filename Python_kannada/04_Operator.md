@@ -1,4 +1,5 @@
 # Operators in Python
+Operators are used to perform operations on variables and values.
 
 ## 1. Assignment Operators
 Assignment operators are used to assign values to variables.  
