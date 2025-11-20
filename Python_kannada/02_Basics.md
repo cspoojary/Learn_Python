@@ -1,8 +1,16 @@
 # Python Basics 
-
-## Variables in Python
-Variables are used to store data values.  
-They are created when you assign a value to them, and you don’t need to declare their type (Python is dynamically typed).
+### TOKENS
+- Keywords
+- Identifiers
+- Literals
+- Operators
+- Punctuators / Delimiters
+- Comments
+- 
+## Variable
+- Variables are containers for storing data values.  
+- creating a variable is as simple as assigning it a value. Python is dynamically typed, so you don't need to declare the type. The variable is created the moment you first assign a value to it.
+- In Python, memory space is allocated automatically without the need for explicit declaration when a value is assigned to a variable. The assignment of values to variables is done using the equal sign (=).
 
 ###  Syntax:
 ```python
@@ -21,15 +29,79 @@ age = 25
 name = "John"
 is_student = True
 ```
+- Redeclaring Variables
+    - You can redeclare a variable in Python by assigning a new value to it. This can even change the  variable's type, due to Python's dynamic typing.
+    - Example
+```Python
+    x = 5
+    x = "Sara"
+    print(x)
+```
+- Assign Values to Multiple Variables
+    - Python allows assigning values to multiple variables in one line, making your code concise and  readable.
+    - Example
+    ```Python
+    a = b = c = 5
+    print(a)
+    print(b)
+    print(c)
+    ```
+  - Output Variable
+    - The Python print() function is often used to output variables.
+    - when you try to combine a string and a number with the `+` operator, Python will give you an error.
+```Python
+x = "Python "
+y = "is "
+z = "awesome"
 
+print(x + y + z)
+```
+**NOTE:**  The space character after `"Python "` and `"is "`, without them the result would be "Pythonisawesome".
+
+- Global Variable
+    Variables that are created outside of a function are known as global variables.
+    
+    - Create a variable outside of a function, and use it inside the function
+```Python
+    x = "awesome"
+    def myfunc(): 
+        print("Python is " + x)
+    myfunc()
+```
+  - Create a variable inside a function, with the same name as the global variable
+  ```Python  
+    x = "awesome"
+    def myfunc():
+       x = "fantastic"  
+       print("Python is " + x)
+    myfunc()
+    
+    print("Python is " + x)
+  ```
+- To create a global variable inside a function, you can use the  global()  keyword.
+  ```Python 
+    x = "awesome"
+    def myfunc():
+      global x
+      x = "fantastic"
+    myfunc()
+    print("Python is " + x)
+  ```
 ---
 
 ## Data Types in Python
 Common built-in types:
-- `int` – integers (e.g., `1`, `-3`)
-- `float` – decimal numbers (e.g., `3.14`)
-- `str` – strings (e.g., `"Hello"`)
-- `bool` – Boolean (`True` or `False`)
+| Category        | Data Types                       |
+|----------------|----------------------------------|
+| Text Type       | str                              |
+| Numeric Types   | int, float, complex              |
+| Sequence Types  | list, tuple, range               |
+| Mapping Type    | dict                             |
+| Set Types       | set, frozenset                   |
+| Boolean Type    | bool                             |
+| Binary Types    | bytes, bytearray, memoryview     |
+| None Type       | NoneType                         |
+
 
 ### Type Checking:
 You can use the type() function to check the type of a variable.
