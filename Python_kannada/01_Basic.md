@@ -116,6 +116,7 @@ produces the desired results.
 ### Algorithm
 An algorithm is a step-by-step procedure or set of instructions for solving a particular problem or performing a specific task. It is a fundamental concept in programming and is used to design and implement solutions in code.
 
+---
 ### PEP8 - Program Enhancement Proposal.
 PEP 8 is the Python Enhancement Proposal that defines the style guide for writing
 Python code. It promotes consistency and readability by specifying conventions for
@@ -132,6 +133,7 @@ A translator is software that converts human-readable source code into machine-r
 - interpreter
 - Assembler
 
+---
 ### Python Paradigm:
 A  Paradigm is a styleot approach to structuring and thinking about code
 - Procedural (Imperative) Programming: Code is organized into procedures or functions that run step by step.
