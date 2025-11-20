@@ -1,5 +1,8 @@
 #  Introduction to Python Programming
 
+## History
+Python was created by Guido Van Rossum in 1989 at (WI) Netherland and released in 1991
+
 ##  What is Python?
 - **Python** is a **high-level**, **interpreted** programming language known for its **simplicity** and
 **readability**. Key features include **dynamic typing**, **automatic memory management**
