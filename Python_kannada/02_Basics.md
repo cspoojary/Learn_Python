@@ -188,6 +188,49 @@ Python has a set of keywords that are reserved words that cannot be used as vari
 | with      | Used to simplify exception handling                                         |
 | yield     | To return a list of values from a generator                                 |
 
+---
+
+## NUMBERS
+
+- INT
+    Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+```Python
+x = 1
+y = 35656222554887711
+z = -3255522
+print(type(x))
+print(type(y))
+print(type(z))
+```
+- FLOAT
+    Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+  ```Python
+  x = 1.10
+  y = 1.0
+  z = -35.59
+  print(type(x))
+  print(type(y))
+  print(type(z))
+    
+- COMPLEX
+    Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+```Python
+x = 1.10
+y = 1.0
+z = -35.59
+print(type(x))
+print(type(y))
+print(type(z))
+```    
+- Random Number
+    Python does not have a `random()` function to make a random number, but Python has a built-in module called random() that can be used to make random numbers:
+    - example:
+    Import the random module, and display a random number from 1 to 9:
+```Python
+    import randomprint(random.randrange(1, 10))
+```
+
+---
 
 ## Homework
 
