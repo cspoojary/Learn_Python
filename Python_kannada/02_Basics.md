@@ -125,30 +125,7 @@ print(z)  # Output: 10.0
 
 ---
 
-## Arithmetic Operators
-Python supports basic arithmetic operations like addition, subtraction, multiplication, division, and more.
-| Operator | Description | Example | Result |
-|-----------|--------------|----------|--------|
-| `+` | Addition | `10 + 3` | 13 |
-| `-` | Subtraction | `10 - 3` | 7 |
-| `*` | Multiplication | `10 * 3` | 30 |
-| `/` | Division | `10 / 3` | 3.333... |
-| `//` | Floor Division | `10 // 3` | 3 |
-| `%` | Modulus | `10 % 3` | 1 |
-| `**` | Exponentiation | `10 ** 3` | 1000 |
 
-### Example:
-```python
-a = 10
-b = 3
-print(a + b)  # Output: 13
-print(a - b)  # Output: 7
-print(a * b)  # Output: 30
-print(a / b)  # Output: 3.3333...
-print(a // b)  # Output: 3 (Floor Division)
-print(a % b)  # Output: 1 (Modulus)
-print(a ** b)  # Output: 1000 (Exponentiation)
-```
 
 ---
 
