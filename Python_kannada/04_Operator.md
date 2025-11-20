@@ -170,7 +170,42 @@ print(a // b)  # Output: 3 (Floor Division)
 print(a % b)  # Output: 1 (Modulus)
 print(a ** b)  # Output: 1000 (Exponentiation)
 ```
+## PRECEDENCE
+**Operator precedence describes the order in which operations are performed**
+- Precedence
+    - Parentheses has the highest precedence, meaning that expressions inside parentheses must be evaluated first:
+  ```Python 
+    print((6 + 3) - (6 + 3))
+  ```
+  
+    - Multiplication `*` has higher precedence than addition `+`, and therefore multiplications are evaluated before additions:
+  ```Python
+    print(100 + 5 * 3)
+  ```
+  
+    - If two operators have the same precedence, the expression is evaluated from left to right.
+    Addition `+` and subtraction `-` has the same precedence, and therefore we evaluate the expression from left to right:
+  ```Python
+    print(5 + 4 - 7 + 3)
+  ```
+    - The precedence order is described in the table below, starting with the highest precedence at the top:
+| Operator                                    | Description                                             |
+|---------------------------------------------|---------------------------------------------------------|
+| ()                                          | Parentheses                                             |
+| **                                          | Exponentiation                                          |
+| +x , -x , ~x                                 | Unary plus, unary minus, and bitwise NOT               |
+| * , / , // , %                               | Multiplication, division, floor division, and modulus  |
+| + , -                                       | Addition and subtraction                                |
+| << , >>                                     | Bitwise left and right shifts                           |
+| &                                           | Bitwise AND                                             |
+| ^                                           | Bitwise XOR                                             |
+| |                                           | Bitwise OR                                              |
+| == , != , > , >= , < , <= , is , is not , in , not in | Comparisons, identity, and membership operators |
+| not                                         | Logical NOT                                             |
+| and                                         | Logical AND                                             |
+| or                                          | Logical OR                                              |
 
+ 
 ---
 ## Homework
 1. Logical Operator Practice: Write a Python program that takes two numbers as input from the user and checks if:
