@@ -16,3 +16,33 @@ Output:
 Name: Kumar, Age: 25
 ```
 ---
+## 2. Variable-Length Arguments
+You can use *args and **kwargs to accept a variable number of arguments in a function.
+Example: Using *args
+```Python
+def total_sum(*numbers):
+    result = 0
+    for num in numbers:
+        result += num
+    return result
+
+print(total_sum(1, 2, 3, 4))
+```
+Output:
+```Python
+10
+```
+Example: Using **kwargs
+
+
+
+
+
+
+
+
+
+
+
+
+
