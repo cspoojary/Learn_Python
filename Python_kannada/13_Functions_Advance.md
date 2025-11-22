@@ -64,10 +64,43 @@ Output:
 10
 ```
 ----
+## 4. Recursion
+Recursion occurs when a function calls itself. It's used to solve problems that can be broken down into smaller, similar problems.
 
+Example: Recursive function to calculate factorial
+```Python
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
+print(factorial(5))
+```
+Output:
+```Python
+120
+```
+Here are the sections for Nested Functions and Local/Global Variables:
 
+---
+## 5. Nested Functions
+A nested function is a function defined inside another function. The inner function is only accessible within the outer function, allowing for more modular and controlled code execution.
 
+Example: Nested function in Python
+```Python
+def outer_function(name):
+    def inner_function():
+        print(f"Hello, {name}!")
+    inner_function()
+
+outer_function("Anand")
+```
+Output:
+```Python
+Hello, Anand!
+```
+In this example, the inner_function() is called within outer_function() and uses the name parameter of the outer function.
 
 
 
