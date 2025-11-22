@@ -33,7 +33,37 @@ Output:
 10
 ```
 Example: Using **kwargs
+```Python
+def student_info(**details):
+    for key, value in details.items():
+        print(f"{key}: {value}")
 
+student_info(name="Anand", age=22, course="Python")
+```
+Output:
+```Python
+name: Anand
+age: 22
+course: Python
+```
+---
+## 3. Lambda Functions
+A lambda function is a small anonymous function that can take any number of arguments but has only one expression.
+
+Syntax:
+```Python
+lambda arguments: expression
+```
+Example: Lambda function to double a number
+```Python
+double = lambda x: x * 2
+print(double(5))
+```
+Output:
+```Python
+10
+```
+----
 
 
 
