@@ -76,4 +76,30 @@ In this example:
 - The method greet() prints a greeting message using these attributes.
 
 ---
+4. Creating Multiple Objects from a Class
+One of the main advantages of OOP is that you can create multiple objects from a class, each with its own unique attributes.
 
+Example:
+```Python
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print(f"{self.name} is barking!")
+
+# Creating multiple objects
+dog1 = Dog("Rex", "Golden Retriever")
+dog2 = Dog("Bolt", "Beagle")
+
+dog1.bark()
+dog2.bark()
+```
+Output:
+```Python
+Rex is barking!
+Bolt is barking!
+```
+Here:
+- dog1 and dog2 are different objects of the Dog class, each with its own name and breed.
