@@ -106,7 +106,7 @@ Here:
 ---
 
 5. Homework
- 1.Create a Class:
+  1.Create a Class:
    - Write a class Mobile with attributes brand and price.
    - Create two objects of the class and display their attributes using a method.
      
