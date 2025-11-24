@@ -103,3 +103,14 @@ Bolt is barking!
 ```
 Here:
 - dog1 and dog2 are different objects of the Dog class, each with its own name and breed.
+---
+
+5. Homework
+1.Create a Class:
+
+   - Write a class Mobile with attributes brand and price.
+   - Create two objects of the class and display their attributes using a method.
+2.Method Definition:
+- Define a class Student with attributes name and marks.
+- Write a method display_info() that prints the student's name and marks.
+- Create multiple objects of the Student class and call the method on each.
