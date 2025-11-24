@@ -9,3 +9,5 @@ In this video, we will begin our journey into Object-Oriented Programming (OOP) 
 Procedural Programming: Based on functions, where the main focus is on performing actions.
     - Example: Writing multiple functions to process data.
 - Object-Oriented Programming: Based on objects and classes. The main focus is on objects (data) and the methods (functions) that manipulate this data.
+
+---
