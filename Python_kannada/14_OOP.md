@@ -44,3 +44,33 @@ Here:
 - my_car is an object of the Car class.
 - brand and model are attributes of the object.
 - display_info() is a method that displays the car's details.
+
+---
+## 3. Attributes (Instance Variables) and Methods
+- Attributes: Characteristics that define an object. For example, in the Car class, brand and model are attributes.
+- Methods: Functions defined inside a class that describe the behaviors of an object.
+Example:
+```Python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+# Creating objects
+person1 = Person("Arjun", 30)
+person2 = Person("Megha", 25)
+
+person1.greet()
+person2.greet()
+```
+Output:
+```Python
+Hello, my name is Arjun and I am 30 years old.
+Hello, my name is Megha and I am 25 years old.
+```
+In this example:
+- The Person class defines two attributes: name and age.
+- The method greet() prints a greeting message using these attributes.
