@@ -105,7 +105,7 @@ Here:
 - dog1 and dog2 are different objects of the Dog class, each with its own name and breed.
 ---
 
-5. Homework
+## 5. Homework
   1.Create a Class:
    - Write a class Mobile with attributes brand and price.
    - Create two objects of the class and display their attributes using a method.
