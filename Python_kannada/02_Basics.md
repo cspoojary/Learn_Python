@@ -275,4 +275,112 @@ x, y = y, x
 
 print("After swapping: x =", x, ", y =", y)
 ```
+### Mutable and Immutable
+#### Mutable
+- Objects whose value can be changed after creation.
+- You can update, add, or remove elements.
+- Example
+  - List
+  - Dictionary
+  - Set
+- Coding Example
+```Python
+x = [1, 2, 3]
+print(id(x))  # Example: 140232442
+x.append(4)
+print(id(x))  # Same ID → modified in place
+print(x)
+```
+Output:
+```Python
+132594068834752
+132594068834752
+[1, 2, 3, 4]
+```
+- Performance
+  - Faster to update
 
+
+#### Immutable
+- Objects whose value cannot be changed once created.
+- Any modification creates a new object.
+- Example
+  - Tuple
+  - String
+  - Integer
+  - Float
+  - Boolean
+- Coding Example
+```Python
+s = "hello"
+print(id(s))  # Example: 140232500
+s = s + " world"
+print(id(s))  # Different ID → new object created
+print(s)
+```
+Output:
+```Python
+s = "hello"
+print(id(s))  # Example: 140232500
+s = s + " world"
+print(id(s))  # Different ID → new object created
+print(s)
+```
+- Performance
+  - Safe but slower to modify
+ 
+---
+
+### Call by Value n Call by Reference
+#### 1. Call by Value (concept)
+- A copy of the value is passed to the function.
+- The original value does not change.
+
+##### Works like this for immutable types:
+- int
+- float
+- string
+- tuple
+- bool
+
+##### Example
+```Python
+def modify(x):
+    x = x + 10
+    print("Inside function:", x)
+
+a = 5
+modify(a)
+print("Outside function:", a)
+```
+Output:
+```Python
+Inside function: 15
+Outside function: 5
+```
+- Original variable does not change → behaves like call by value.
+
+### 2. Call by Reference (concept)
+- A reference (address) is passed to the function.
+- Changes inside function affect the original object.
+
+##### Happens with mutable types:
+- list
+- dictionary
+- set
+##### Example
+```Python
+def modify(lst):
+    lst.append(10)
+    print("Inside function:", lst)
+
+a = [1, 2, 3]
+modify(a)
+print("Outside function:", a)
+```
+Output
+```Python
+Inside function: [1, 2, 3, 10]
+Outside function: [1, 2, 3, 10]
+```
+- Original variable changes → behaves like call by reference.
