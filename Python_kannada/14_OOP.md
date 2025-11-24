@@ -74,3 +74,6 @@ Hello, my name is Megha and I am 25 years old.
 In this example:
 - The Person class defines two attributes: name and age.
 - The method greet() prints a greeting message using these attributes.
+
+---
+
