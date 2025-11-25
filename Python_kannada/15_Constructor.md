@@ -39,3 +39,28 @@ Here:
 - introduce() is a method that accesses the instance variables using self.
 
 ---
+## 3. Creating Multiple Objects with Different Attributes
+By passing different values to __init__() when creating objects, each object can have unique attributes.
+
+Example:
+```Python
+class Laptop:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def show_info(self):
+        print(f"Laptop Brand: {self.brand}, Price: ₹{self.price}")
+
+laptop1 = Laptop("Dell", 45000)
+laptop2 = Laptop("HP", 55000)
+
+laptop1.show_info()
+laptop2.show_info()
+```
+Output:
+```Python
+Laptop Brand: Dell, Price: ₹45000
+Laptop Brand: HP, Price: ₹55000
+```
+Each Laptop object has its own values for brand and price, demonstrating unique attribute assignment through __init__().
