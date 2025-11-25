@@ -64,3 +64,33 @@ Laptop Brand: Dell, Price: ₹45000
 Laptop Brand: HP, Price: ₹55000
 ```
 Each Laptop object has its own values for brand and price, demonstrating unique attribute assignment through __init__().
+
+---
+## 4. Optional Parameters in Constructors
+Sometimes, it’s helpful to have default values for certain attributes. You can do this by setting default values for parameters in __init__().
+
+Example:
+```Python
+class Book:
+    def __init__(self, title, author="Unknown"):
+        self.title = title
+        self.author = author
+
+    def show_book(self):
+        print(f"Title: {self.title}, Author: {self.author}")
+
+book1 = Book("Python Programming")
+book2 = Book("Machine Learning", "Andrew Ng")
+
+book1.show_book()
+book2.show_book()
+```
+Output:
+```Python
+Title: Python Programming, Author: Unknown
+Title: Machine Learning, Author: Andrew Ng
+```
+In this example:
+- If an author is not provided, it defaults to "Unknown".
+
+---
