@@ -23,3 +23,8 @@ atm = ATM(1000)
 atm.deposit(500)
 atm.withdraw(300)
 ```
+Here, __balance is a private attribute, ensuring only the deposit() and withdraw() methods can modify it.
+
+Programming Example in Code:
+Consider a User class for storing login information:
+
