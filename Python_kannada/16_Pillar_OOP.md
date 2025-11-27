@@ -47,4 +47,7 @@ print(user.check_password("pass1234"))  # Returns True
 Encapsulation here hides __password from direct access.
 
 ---
-
+2. Abstraction
+- Definition: Abstraction hides the complex inner workings of an object, exposing only the essential parts for interaction.
+- Real-World Example: Think about driving a car. You use the steering wheel and pedals to control the car, without needing to know the engine mechanics or braking systems.
+Real-World Example in Code:
