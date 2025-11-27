@@ -45,3 +45,6 @@ print(user.check_password("wrong_pass"))  # Returns False
 print(user.check_password("pass1234"))  # Returns True
 ```
 Encapsulation here hides __password from direct access.
+
+---
+
