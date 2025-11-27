@@ -47,7 +47,7 @@ print(user.check_password("pass1234"))  # Returns True
 Encapsulation here hides __password from direct access.
 
 ---
-2. Abstraction
+## 2. Abstraction
 - Definition: Abstraction hides the complex inner workings of an object, exposing only the essential parts for interaction.
 - Real-World Example: Think about driving a car. You use the steering wheel and pedals to control the car, without needing to know the engine mechanics or braking systems.
 #### Real-World Example in Code:
@@ -90,3 +90,7 @@ print(db.get_data("user_101"))
 The user can store and retrieve data without needing to know the storage details.
 
 ---
+## 3. Inheritance
+Definition: Inheritance allows a class to inherit attributes and methods from another class, facilitating reuse.
+Real-World Example: Consider human families. Characteristics like surname, traditions, or physical features can be passed down from parents to children.
+#### Real-World Example in Code:
