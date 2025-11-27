@@ -94,3 +94,16 @@ The user can store and retrieve data without needing to know the storage details
 Definition: Inheritance allows a class to inherit attributes and methods from another class, facilitating reuse.
 Real-World Example: Consider human families. Characteristics like surname, traditions, or physical features can be passed down from parents to children.
 #### Real-World Example in Code:
+```Python
+class Family:
+    def __init__(self, surname):
+        self.surname = surname
+
+class Child(Family):
+    def __init__(self, surname, name):
+        super().__init__(surname)
+        self.name = name
+
+child = Child("Gowda", "Ajay")
+print(f"{child.name} {child.surname}")  # Inherits surname from Family
+```
