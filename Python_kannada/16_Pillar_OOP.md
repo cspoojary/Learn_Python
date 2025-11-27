@@ -87,3 +87,6 @@ db = Database()
 db.save_data("user_101", {"name": "Raj", "age": 30})
 print(db.get_data("user_101"))
 ```
+The user can store and retrieve data without needing to know the storage details.
+
+---
