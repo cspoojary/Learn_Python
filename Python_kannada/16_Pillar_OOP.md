@@ -172,3 +172,4 @@ notifications = [EmailNotification(), SMSNotification()]
 for notification in notifications:
     notification.send()
 ```
+Each notification type behaves differently while sharing a common interface.
