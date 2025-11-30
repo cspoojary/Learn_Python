@@ -173,3 +173,24 @@ for notification in notifications:
     notification.send()
 ```
 Each notification type behaves differently while sharing a common interface.
+
+---
+Homework
+1. Encapsulation:
+    - Create a BankAccount class with private attributes for account_number and balance.
+    - Add methods to check balance, deposit, and withdraw funds.
+    - Try accessing the balance directly and observe the result.
+      
+2. Abstraction:
+    - Design a Phone class with methods to call_contact and take_picture. Abstract away any internal processing details and focus on creating a user-friendly interface.
+  
+   
+3. Inheritance:
+    - Create a base class Vehicle with a start method. Then create a subclass Bike with an additional ride() method.
+    - Demonstrate how the Bike can use both start and ride.
+      
+4. Polymorphism:
+    - Implement a Shape class and derive Circle and Rectangle classes with a method calculate_area. Each class should calculate area differently based on its shape.
+    - Create a loop to calculate areas for both Circle and Rectangle objects.
+  
+---
