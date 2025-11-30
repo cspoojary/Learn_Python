@@ -107,3 +107,7 @@ class Child(Family):
 child = Child("Gowda", "Ajay")
 print(f"{child.name} {child.surname}")  # Inherits surname from Family
 ```
+The Child class inherits attributes of Family, showing that certain characteristics are “inherited.”
+
+Programming Example in Code:
+Consider an e-commerce application where an Admin has additional privileges over a basic User:
