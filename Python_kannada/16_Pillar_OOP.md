@@ -130,3 +130,6 @@ admin.delete_user("user_102")  # Admin-specific method
 Here, Admin inherits from User and gains additional functionality.
 
 ---
+4. Polymorphism
+- Definition: Polymorphism allows objects of different classes to be treated as objects of a common superclass, but they can behave differently depending on the object type.
+- Real-World Example: Think of animals making sounds—both dogs and cats make sounds, but each produces a distinct sound. They share a common method make_sound(), but the output varies.
