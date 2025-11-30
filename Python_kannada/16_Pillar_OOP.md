@@ -127,3 +127,4 @@ admin = Admin("karnataka_admin")
 admin.login()  # Inherited from User
 admin.delete_user("user_102")  # Admin-specific method
 ```
+Here, Admin inherits from User and gains additional functionality.
