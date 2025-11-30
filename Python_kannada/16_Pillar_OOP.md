@@ -151,3 +151,7 @@ animals = [Dog(), Cat()]
 for animal in animals:
     animal.make_sound()
 ```
+Each animal has a unique sound, demonstrating polymorphism.
+
+Programming Example in Code:
+Consider notifications in a social media app, where different types have the same send() method but behave uniquely:
