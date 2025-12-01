@@ -194,3 +194,8 @@ Homework
     - Create a loop to calculate areas for both Circle and Rectangle objects.
   
 ---
+
+
+
+
+----
