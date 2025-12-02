@@ -1,8 +1,8 @@
 # Getters, Setters, Method Overloading & Overriding, super(), Abstract Classes
 
-### 1. Getters and Setters
-Definition: Getters and setters are methods that allow controlled access to an object's attributes.
-Purpose: They help in validating data, protecting data from accidental modification, and providing controlled access.
+## 1. Getters and Setters
+- Definition: Getters and setters are methods that allow controlled access to an object's attributes.
+- Purpose: They help in validating data, protecting data from accidental modification, and providing controlled access.
 
 #### Example
 ```Python
@@ -37,6 +37,6 @@ Here:
 - get_age() provides read-only access to __age, while set_age() enables controlled modification.
 
 ---
-### 2. Method Overloading
-Definition: Method overloading is the ability to define multiple methods with the same name but different parameters.
-Note: Python doesn’t support method overloading directly, but we can achieve it by using default parameters or by handling varying numbers of arguments with *args or **kwargs.
+## 2. Method Overloading
+- Definition: Method overloading is the ability to define multiple methods with the same name but different parameters.
+- Note: Python doesn’t support method overloading directly, but we can achieve it by using default parameters or by handling varying numbers of arguments with *args or **kwargs.
