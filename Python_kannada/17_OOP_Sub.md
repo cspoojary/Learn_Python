@@ -40,3 +40,22 @@ Here:
 ## 2. Method Overloading
 - Definition: Method overloading is the ability to define multiple methods with the same name but different parameters.
 - Note: Python doesn’t support method overloading directly, but we can achieve it by using default parameters or by handling varying numbers of arguments with *args or **kwargs.
+
+Example:
+```Python
+class MathOperations:
+    def add(self, a, b, c=0):
+        return a + b + c  # Handles both 2 and 3 parameter cases
+
+# Usage
+math = MathOperations()
+print(math.add(5, 10))     # Two arguments
+print(math.add(5, 10, 15)) # Three arguments
+```
+Output: 
+```Python
+15
+30
+```
+Here:
+- The method add can accept either two or three arguments, handling both cases within the same method.
