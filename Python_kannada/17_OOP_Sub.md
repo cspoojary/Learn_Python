@@ -37,3 +37,6 @@ Here:
 - get_age() provides read-only access to __age, while set_age() enables controlled modification.
 
 ---
+2. Method Overloading
+Definition: Method overloading is the ability to define multiple methods with the same name but different parameters.
+Note: Python doesn’t support method overloading directly, but we can achieve it by using default parameters or by handling varying numbers of arguments with *args or **kwargs.
