@@ -34,4 +34,5 @@ Age: 20
 Updated Age: 21
 ```
 Here:
-    - get_age() provides read-only access to __age, while set_age() enables controlled modification.
+
+- get_age() provides read-only access to __age, while set_age() enables controlled modification.
