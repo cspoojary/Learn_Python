@@ -86,3 +86,7 @@ Output:
 This animal makes a sound
 Dog barks
 ```
+Here:
+- sound() in Dog overrides the sound() method in Animal, providing specific behavior for Dog.
+
+---
