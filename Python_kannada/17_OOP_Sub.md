@@ -90,3 +90,6 @@ Here:
 - sound() in Dog overrides the sound() method in Animal, providing specific behavior for Dog.
 
 ---
+## 4. super() Function
+- Definition: The super() function is used in child classes to call a method from the parent class, enabling access to inherited methods or attributes.
+- Purpose: It ensures that the parent class's method is executed alongside any additional functionality added in the child class, useful when overriding methods but still needing to incorporate the parent’s behavior.
