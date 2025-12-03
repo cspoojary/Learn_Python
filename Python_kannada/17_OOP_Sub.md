@@ -152,3 +152,7 @@ Output:
 ```Python
 Car engine started
 ```
+Here:
+
+- Vehicle is an abstract class that defines an abstract method start_engine().
+- Car inherits from Vehicle and provides an implementation of start_engine(), enabling us to create an object of Car.
