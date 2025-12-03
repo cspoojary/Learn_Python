@@ -59,3 +59,8 @@ Output:
 ```
 Here:
 - The method add can accept either two or three arguments, handling both cases within the same method.
+
+---
+## 3. Method Overriding
+- Definition: Method overriding allows a child class to provide a specific implementation for a method that is already defined in its parent class.
+- Purpose: It enables a child class to alter or extend the behavior of a parent class method.
