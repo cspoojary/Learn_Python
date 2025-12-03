@@ -93,3 +93,26 @@ Here:
 ## 4. super() Function
 - Definition: The super() function is used in child classes to call a method from the parent class, enabling access to inherited methods or attributes.
 - Purpose: It ensures that the parent class's method is executed alongside any additional functionality added in the child class, useful when overriding methods but still needing to incorporate the parent’s behavior.
+
+Example:
+```Python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def sound(self):
+        print(f"{self.name} makes a sound")
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)  # Calling the parent class's __init__ method
+        self.breed = breed
+
+    def sound(self):
+        super().sound()  # Calling the parent class's sound method
+        print(f"{self.name} barks")
+
+# Usage
+dog = Dog("Buddy", "Labrador")
+dog.sound()
+```
