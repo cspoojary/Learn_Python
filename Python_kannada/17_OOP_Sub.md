@@ -64,3 +64,20 @@ Here:
 ## 3. Method Overriding
 - Definition: Method overriding allows a child class to provide a specific implementation for a method that is already defined in its parent class.
 - Purpose: It enables a child class to alter or extend the behavior of a parent class method.
+
+Example:
+```Python
+class Animal:
+    def sound(self):
+        print("This animal makes a sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")  # Overrides the parent class method
+
+# Usage
+animal = Animal()
+animal.sound()
+dog = Dog()
+dog.sound()  # Calls the overridden method in Dog class
+```
