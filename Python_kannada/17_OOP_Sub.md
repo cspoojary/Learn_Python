@@ -124,3 +124,9 @@ Buddy barks
 Here:
 - super().__init__(name) in the Dog class calls the __init__ method from the Animal class, initializing the name attribute.
 - Similarly, super().sound() calls the sound method in Animal, followed by the additional behavior in Dog.
+
+---
+## 5. Abstract Classes
+- Definition: An abstract class in Python is a class that cannot be instantiated directly. It can have abstract methods, which must be implemented by subclasses.
+- Purpose: Abstract classes provide a blueprint for other classes, enforcing a structure where subclasses must implement certain methods.
+- Implementation: Use the ABC (Abstract Base Class) module to create abstract classes in Python.
