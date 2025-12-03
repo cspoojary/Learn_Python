@@ -156,3 +156,22 @@ Here:
 
 - Vehicle is an abstract class that defines an abstract method start_engine().
 - Car inherits from Vehicle and provides an implementation of start_engine(), enabling us to create an object of Car.
+
+---
+## 6. Homework
+1. Getters and Setters:
+    - Create a class BankAccount with a private attribute balance.
+    - Write a getter method to retrieve the balance and a setter method to update it, ensuring the balance never goes below zero.
+
+2. Method Overloading:
+    - Write a class Calculator with a method multiply(). Allow it to take either two or three arguments to multiply two or three numbers.
+
+3. Method Overriding:
+    - Create a parent class Shape with a method draw() that prints "Drawing shape".
+    - Create a child class Circle that overrides draw() to print "Drawing circle".
+   
+4. Abstract Classes:
+    - Define an abstract class Employee with an abstract method calculate_salary().
+    - Create a subclass Manager that implements calculate_salary() based on working hours and rate per hour.
+  
+---
