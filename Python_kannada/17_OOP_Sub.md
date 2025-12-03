@@ -121,3 +121,6 @@ Output:
 Buddy makes a sound
 Buddy barks
 ```
+Here:
+- super().__init__(name) in the Dog class calls the __init__ method from the Animal class, initializing the name attribute.
+- Similarly, super().sound() calls the sound method in Animal, followed by the additional behavior in Dog.
