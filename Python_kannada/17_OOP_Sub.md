@@ -131,7 +131,7 @@ Here:
 - Purpose: Abstract classes provide a blueprint for other classes, enforcing a structure where subclasses must implement certain methods.
 - Implementation: Use the ABC (Abstract Base Class) module to create abstract classes in Python.
 
-Output:
+Example:
 ```Python
 from abc import ABC, abstractmethod
 
@@ -147,4 +147,8 @@ class Car(Vehicle):
 # Usage
 car = Car()
 car.start_engine()
+```
+Output:
+```Python
+Car engine started
 ```
