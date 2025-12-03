@@ -130,3 +130,21 @@ Here:
 - Definition: An abstract class in Python is a class that cannot be instantiated directly. It can have abstract methods, which must be implemented by subclasses.
 - Purpose: Abstract classes provide a blueprint for other classes, enforcing a structure where subclasses must implement certain methods.
 - Implementation: Use the ABC (Abstract Base Class) module to create abstract classes in Python.
+
+Output:
+```Python
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):  # Abstract base class
+    @abstractmethod
+    def start_engine(self):
+        pass  # Abstract method with no implementation
+
+class Car(Vehicle):
+    def start_engine(self):
+        print("Car engine started")
+
+# Usage
+car = Car()
+car.start_engine()
+```
