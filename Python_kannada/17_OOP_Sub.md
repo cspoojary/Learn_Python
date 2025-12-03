@@ -116,3 +116,8 @@ class Dog(Animal):
 dog = Dog("Buddy", "Labrador")
 dog.sound()
 ```
+Output:
+```Python
+Buddy makes a sound
+Buddy barks
+```
