@@ -81,3 +81,8 @@ animal.sound()
 dog = Dog()
 dog.sound()  # Calls the overridden method in Dog class
 ```
+Output:
+```Python
+This animal makes a sound
+Dog barks
+```
