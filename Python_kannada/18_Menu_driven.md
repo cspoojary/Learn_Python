@@ -17,3 +17,6 @@
 2. Take User Input: Use input() to capture the user's choice.
 3. Process the Choice: Use conditional statements to execute actions based on the user's input.
 4. Repeat Until Exit: Use a loop (while) to keep displaying the menu until the user chooses to exit.
+
+---
+## Basic Structure of a Menu-Driven Program
