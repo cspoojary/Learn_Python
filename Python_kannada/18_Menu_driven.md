@@ -94,9 +94,11 @@ while True:
     - Example: Check if the user enters a number when required.
 2. Exit Condition:
     - Use a specific option (e.g., 4 or 5) to allow users to exit the program gracefully.
-Error Handling:
-
-Handle cases like division by zero or invalid inputs using try and except.
-Reusability:
-
-Define a separate function for the menu to avoid repeating code.
+      
+3. Error Handling:
+    - Handle cases like division by zero or invalid inputs using try and except.
+      
+4. Reusability:
+    - Define a separate function for the menu to avoid repeating code.
+  
+---
