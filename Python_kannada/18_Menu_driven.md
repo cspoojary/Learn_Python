@@ -93,7 +93,7 @@ while True:
     - Ensure user input is valid to prevent runtime errors.
     - Example: Check if the user enters a number when required.
 2. Exit Condition:
-Use a specific option (e.g., 4 or 5) to allow users to exit the program gracefully.
+    - Use a specific option (e.g., 4 or 5) to allow users to exit the program gracefully.
 Error Handling:
 
 Handle cases like division by zero or invalid inputs using try and except.
