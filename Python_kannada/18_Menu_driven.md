@@ -44,3 +44,7 @@ while True:
     else:
         print("Invalid choice. Please try again.")
 ```
+---
+## Detailed Example
+#### Scenario: Simple Calculator
+A menu-driven program to perform basic arithmetic operations.
