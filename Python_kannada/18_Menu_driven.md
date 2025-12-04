@@ -90,8 +90,8 @@ while True:
 ---
 ## Key Points to Note
 1. Input Validation:
-- Ensure user input is valid to prevent runtime errors.
-- Example: Check if the user enters a number when required.
+    - Ensure user input is valid to prevent runtime errors.
+    - Example: Check if the user enters a number when required.
 Exit Condition:
 
 Use a specific option (e.g., 4 or 5) to allow users to exit the program gracefully.
