@@ -88,9 +88,8 @@ while True:
         print("Invalid choice. Please select a valid option.")
 ```
 ---
-Key Points to Note
-Input Validation:
-
+## Key Points to Note
+1. Input Validation:
 Ensure user input is valid to prevent runtime errors.
 Example: Check if the user enters a number when required.
 Exit Condition:
