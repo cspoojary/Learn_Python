@@ -88,3 +88,17 @@ while True:
         print("Invalid choice. Please select a valid option.")
 ```
 ---
+Key Points to Note
+Input Validation:
+
+Ensure user input is valid to prevent runtime errors.
+Example: Check if the user enters a number when required.
+Exit Condition:
+
+Use a specific option (e.g., 4 or 5) to allow users to exit the program gracefully.
+Error Handling:
+
+Handle cases like division by zero or invalid inputs using try and except.
+Reusability:
+
+Define a separate function for the menu to avoid repeating code.
