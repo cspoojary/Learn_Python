@@ -111,8 +111,8 @@ while True:
     - Grocery Store Menu:
 
 2. Create a program where users can:
-Add items to their cart.
-Remove items.
+    - Add items to their cart.
+    - Remove items.
 View the total price.
 Exit.
 Educational System:
