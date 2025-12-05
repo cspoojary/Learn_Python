@@ -103,7 +103,7 @@ while True:
   
 ---
 ## Homework
-Banking System: Write a menu-driven program to simulate a basic banking system with options like:
+1. Banking System: Write a menu-driven program to simulate a basic banking system with options like:
 
 Check Balance
 Deposit Money
