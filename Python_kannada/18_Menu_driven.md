@@ -120,3 +120,5 @@ while True:
     - Add student details.
     - Display student details.
     - Exit.
+
+---
