@@ -109,9 +109,8 @@ while True:
     - Deposit Money
     - Withdraw Money
     - Exit
-    - Grocery Store Menu:
 
-3. Create a program where users can:
+3. Grocery Store Menu: Create a program where users can:
     - Add items to their cart.
     - Remove items.
     - View the total price.
