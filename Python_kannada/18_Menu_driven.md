@@ -115,9 +115,8 @@ while True:
     - Remove items.
     - View the total price.
     - Exit.
-Educational System:
 
-Write a program with options to:
+3. Educational System: Write a program with options to:
 Add student details.
 Display student details.
 Exit.
