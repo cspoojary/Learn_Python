@@ -102,3 +102,23 @@ while True:
     - Define a separate function for the menu to avoid repeating code.
   
 ---
+## Homework
+Banking System: Write a menu-driven program to simulate a basic banking system with options like:
+
+Check Balance
+Deposit Money
+Withdraw Money
+Exit
+Grocery Store Menu:
+
+Create a program where users can:
+Add items to their cart.
+Remove items.
+View the total price.
+Exit.
+Educational System:
+
+Write a program with options to:
+Add student details.
+Display student details.
+Exit.
