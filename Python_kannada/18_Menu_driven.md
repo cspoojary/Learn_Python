@@ -106,9 +106,9 @@ while True:
 1. Banking System: Write a menu-driven program to simulate a basic banking system with options like:
     - Check Balance
     - Deposit Money
-Withdraw Money
-Exit
-Grocery Store Menu:
+    - Withdraw Money
+    - Exit
+    - Grocery Store Menu:
 
 Create a program where users can:
 Add items to their cart.
