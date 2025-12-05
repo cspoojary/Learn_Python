@@ -117,6 +117,6 @@ while True:
     - Exit.
 
 3. Educational System: Write a program with options to:
-Add student details.
-Display student details.
-Exit.
+    - Add student details.
+    - Display student details.
+    - Exit.
