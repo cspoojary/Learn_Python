@@ -9,3 +9,9 @@ Design a system to simulate a bank's operations, where users can create accounts
 Create a library system that keeps track of books, borrowers, and availability. Allow borrowing, returning, and viewing available books.
   - Include due dates, penalties for late returns, and unique IDs for books and users.
   - Focus on class relationships and method responsibilities.
+
+## 3. Hospital Patient Management
+Create a hospital management system that tracks doctors, patients, and appointments.
+  - Doctors can have specialties, and patients may have different ailments.
+  - Each appointment should store the doctor-patient relationship, along with the date and time.
+  - Add functionality for doctors' schedules and ensuring no double booking.
