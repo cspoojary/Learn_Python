@@ -20,3 +20,9 @@ Create a hospital management system that tracks doctors, patients, and appointme
 Simulate a basic e-commerce platform where customers can browse products, add them to a cart, and place orders.
   - Use OOP principles to manage inventory, pricing (e.g., discounts), and order tracking.
   - Integrate functionality for calculating taxes and shipping costs dynamically.
+
+## 5. Student Report Card Generator
+Build a system that collects student data and subject-wise marks to generate a report card.
+  - Include grade calculation, average score, and pass/fail result.
+  - Use encapsulation for mark storage and method abstraction for result generation.
+These challenges progressively test the understanding of core OOP principles like inheritance, polymorphism, abstraction, and encapsulation, while also encouraging real-world problem-solving.
