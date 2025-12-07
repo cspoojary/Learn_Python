@@ -15,3 +15,8 @@ Create a hospital management system that tracks doctors, patients, and appointme
   - Doctors can have specialties, and patients may have different ailments.
   - Each appointment should store the doctor-patient relationship, along with the date and time.
   - Add functionality for doctors' schedules and ensuring no double booking.
+
+## 4. E-Commerce Platform Prototype
+Simulate a basic e-commerce platform where customers can browse products, add them to a cart, and place orders.
+  - Use OOP principles to manage inventory, pricing (e.g., discounts), and order tracking.
+  - Integrate functionality for calculating taxes and shipping costs dynamically.
