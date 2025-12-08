@@ -55,3 +55,5 @@ class Discount:
             return 20
 ```
 If we add a new customer type (e.g., VIP), we need to modify this class.
+
+---
