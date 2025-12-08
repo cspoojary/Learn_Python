@@ -23,3 +23,5 @@ class Student:
         print("Generating report card...")
 ```
 This class is handling both data storage and report generation. Too many responsibilities!
+
+---
