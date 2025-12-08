@@ -90,5 +90,17 @@ class Penguin(Bird):
 Penguin violates LSP because it can’t actually replace Bird.
 
 ---
+✅ Good Example:
+class Bird:
+    def move(self):
+        pass
 
+class Sparrow(Bird):
+    def move(self):
+        print("Flying...")
+
+class Penguin(Bird):
+    def move(self):
+        print("Swimming...")
+Now, both follow LSP because they behave correctly when used as a Bird.
 ---
