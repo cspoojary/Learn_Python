@@ -87,3 +87,6 @@ class Penguin(Bird):
     def fly(self):
         raise NotImplementedError("Penguins can't fly")
 ```
+Penguin violates LSP because it can’t actually replace Bird.
+
+---
