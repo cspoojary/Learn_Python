@@ -72,3 +72,6 @@ class PremiumCustomer(Discount):
         return 20
 ```
 You can now add more customer types by extending, not modifying the existing code.
+
+---
+## 3. Liskov Substitution Principle (LSP)
