@@ -78,5 +78,11 @@ You can now add more customer types by extending, not modifying the existing cod
 Definition: Subclasses should be able to replace their parent class without breaking the program.
 
 ### ❌ Bad Example:
+class Bird:
+    def fly(self):
+        print("Flying...")
 
+class Penguin(Bird):
+    def fly(self):
+        raise NotImplementedError("Penguins can't fly")
 
