@@ -25,3 +25,18 @@ class Student:
 This class is handling both data storage and report generation. Too many responsibilities!
 
 ---
+#### ✅ Good Example:
+```Python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+class StudentDatabase:
+    def save(self, student):
+        print(f"Saving {student.name} to database...")
+
+class ReportCard:
+    def generate(self, student):
+        print(f"Generating report card for {student.name}...")
+```
+Now each class has one job: Student handles data, StudentDatabase saves, ReportCard generates.
