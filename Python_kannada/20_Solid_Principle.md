@@ -10,7 +10,7 @@ We’ll go through each one with simple, beginner-friendly examples.
 ---
 ## 1. Single Responsibility Principle (SRP)
 Definition: A class should have only one reason to change. That means, a class should do only one job.
-#### ❌ Bad Example:
+### ❌ Bad Example:
 ```Python
 class Student:
     def __init__(self, name):
@@ -25,7 +25,7 @@ class Student:
 This class is handling both data storage and report generation. Too many responsibilities!
 
 ---
-#### ✅ Good Example:
+### ✅ Good Example:
 ```Python
 class Student:
     def __init__(self, name):
