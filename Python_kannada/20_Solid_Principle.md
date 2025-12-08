@@ -58,6 +58,7 @@ If we add a new customer type (e.g., VIP), we need to modify this class.
 
 ---
 ### ✅ Good Example:
+```Python
 class Discount:
     def get_discount(self):
         return 0
@@ -69,4 +70,5 @@ class RegularCustomer(Discount):
 class PremiumCustomer(Discount):
     def get_discount(self):
         return 20
+```
 You can now add more customer types by extending, not modifying the existing code.
