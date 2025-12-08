@@ -53,4 +53,5 @@ class Discount:
             return 10
         elif customer_type == "premium":
             return 20
+```
 If we add a new customer type (e.g., VIP), we need to modify this class.
