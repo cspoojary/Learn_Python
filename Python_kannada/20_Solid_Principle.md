@@ -42,3 +42,14 @@ class ReportCard:
 Now each class has one job: Student handles data, StudentDatabase saves, ReportCard generates.
 
 ---
+## 2. Open/Closed Principle (OCP)
+Definition: Software entities (classes, functions, etc.) should be open for extension but closed for modification.
+
+### ❌ Bad Example:
+class Discount:
+    def get_discount(self, customer_type):
+        if customer_type == "regular":
+            return 10
+        elif customer_type == "premium":
+            return 20
+If we add a new customer type (e.g., VIP), we need to modify this class.
