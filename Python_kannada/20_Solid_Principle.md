@@ -75,3 +75,8 @@ You can now add more customer types by extending, not modifying the existing cod
 
 ---
 ## 3. Liskov Substitution Principle (LSP)
+Definition: Subclasses should be able to replace their parent class without breaking the program.
+
+### ❌ Bad Example:
+
+
