@@ -46,6 +46,7 @@ Now each class has one job: Student handles data, StudentDatabase saves, ReportC
 Definition: Software entities (classes, functions, etc.) should be open for extension but closed for modification.
 
 ### ❌ Bad Example:
+```Python
 class Discount:
     def get_discount(self, customer_type):
         if customer_type == "regular":
