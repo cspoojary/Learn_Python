@@ -40,3 +40,5 @@ class ReportCard:
         print(f"Generating report card for {student.name}...")
 ```
 Now each class has one job: Student handles data, StudentDatabase saves, ReportCard generates.
+
+---
