@@ -91,6 +91,7 @@ Penguin violates LSP because it can’t actually replace Bird.
 
 ---
 ✅ Good Example:
+```Python
 class Bird:
     def move(self):
         pass
@@ -102,5 +103,7 @@ class Sparrow(Bird):
 class Penguin(Bird):
     def move(self):
         print("Swimming...")
+```
 Now, both follow LSP because they behave correctly when used as a Bird.
+
 ---
