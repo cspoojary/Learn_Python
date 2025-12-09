@@ -107,3 +107,8 @@ class Penguin(Bird):
 Now, both follow LSP because they behave correctly when used as a Bird.
 
 ---
+## 4. Interface Segregation Principle (ISP)
+- Definition: Don’t force a class to implement methods it does not use.
+- Python doesn’t have interfaces like Java/C#, but we can still follow this idea using base classes.
+
+❌ Bad Example:
