@@ -128,3 +128,24 @@ Robot shouldn’t be forced to have eat().
 
 ---
 ### ✅ Good Example:
+```Python
+class Workable:
+    def work(self):
+        pass
+
+class Eatable:
+    def eat(self):
+        pass
+
+class Human(Workable, Eatable):
+    def work(self):
+        print("Human working")
+
+    def eat(self):
+        print("Human eating")
+
+class Robot(Workable):
+    def work(self):
+        print("Robot working")
+```
+Now, each class only implements the methods it really needs.
