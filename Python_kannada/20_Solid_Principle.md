@@ -125,3 +125,5 @@ class Robot(Worker):
         raise NotImplementedError("Robots don't eat")
 ```
 Robot shouldn’t be forced to have eat().
+
+---
