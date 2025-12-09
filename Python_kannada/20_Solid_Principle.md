@@ -112,3 +112,15 @@ Now, both follow LSP because they behave correctly when used as a Bird.
 - Python doesn’t have interfaces like Java/C#, but we can still follow this idea using base classes.
 
 ### ❌ Bad Example:
+```Python
+class Worker:
+    def work(self):
+        pass
+
+    def eat(self):
+        pass
+
+class Robot(Worker):
+    def eat(self):
+        raise NotImplementedError("Robots don't eat")
+```
