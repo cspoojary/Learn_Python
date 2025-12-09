@@ -90,7 +90,7 @@ class Penguin(Bird):
 Penguin violates LSP because it can’t actually replace Bird.
 
 ---
-✅ Good Example:
+### ✅ Good Example:
 ```Python
 class Bird:
     def move(self):
@@ -111,4 +111,4 @@ Now, both follow LSP because they behave correctly when used as a Bird.
 - Definition: Don’t force a class to implement methods it does not use.
 - Python doesn’t have interfaces like Java/C#, but we can still follow this idea using base classes.
 
-❌ Bad Example:
+### ❌ Bad Example:
