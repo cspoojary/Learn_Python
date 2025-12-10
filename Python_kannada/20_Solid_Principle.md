@@ -203,4 +203,5 @@ Now Computer depends on an abstraction, and you can switch the input device easi
 | ISP           | No unnecessary methods          | Use multiple small classes           |
 | DIP           | Depend on abstraction           | Use base classes/interfaces          |
 
+---
 
