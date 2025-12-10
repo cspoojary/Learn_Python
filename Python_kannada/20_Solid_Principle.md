@@ -155,3 +155,15 @@ Now, each class only implements the methods it really needs.
 ## 5. Dependency Inversion Principle (DIP)
 Definition: High-level modules should not depend on low-level modules. Both should depend on abstractions.
 ### ❌ Bad Example:
+```Python
+class Keyboard:
+    def input(self):
+        return "User typing..."
+
+class Computer:
+    def __init__(self):
+        self.keyboard = Keyboard()
+
+    def get_input(self):
+        return self.keyboard.input()
+```
