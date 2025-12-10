@@ -191,3 +191,4 @@ class Computer:
     def get_input(self):
         return self.device.input()
 ```
+Now Computer depends on an abstraction, and you can switch the input device easily!
