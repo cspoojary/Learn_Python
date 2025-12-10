@@ -192,3 +192,13 @@ class Computer:
         return self.device.input()
 ```
 Now Computer depends on an abstraction, and you can switch the input device easily!
+
+---
+Summary Table
+Principle	What It Means	Example Tip
+SRP	One class = One job	Don’t mix save logic & display logic
+OCP	Extend, don’t modify	Add new types via subclass
+LSP	Subclasses must replace parents	Don’t break functionality
+ISP	No unnecessary methods	Use multiple small classes
+DIP	Depend on abstraction	Use base classes/interfaces
+
