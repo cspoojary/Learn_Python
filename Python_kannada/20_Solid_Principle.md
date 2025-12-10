@@ -168,3 +168,7 @@ class Computer:
         return self.keyboard.input()
 ```
 Computer is tightly coupled to Keyboard.
+
+---
+## ✅ Good Example:
+```Python
