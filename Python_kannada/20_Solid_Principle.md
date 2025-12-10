@@ -149,3 +149,8 @@ class Robot(Workable):
         print("Robot working")
 ```
 Now, each class only implements the methods it really needs.
+
+---
+
+## 5. Dependency Inversion Principle (DIP)
+Definition: High-level modules should not depend on low-level modules. Both should depend on abstractions.
