@@ -167,3 +167,4 @@ class Computer:
     def get_input(self):
         return self.keyboard.input()
 ```
+Computer is tightly coupled to Keyboard.
