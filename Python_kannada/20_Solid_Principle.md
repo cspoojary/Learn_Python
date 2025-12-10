@@ -205,3 +205,8 @@ Now Computer depends on an abstraction, and you can switch the input device easi
 
 ---
 
+🏠 Homework
+SRP Practice: Create a Book class that only stores details. Create another class that prints book details.
+OCP Practice: Build a billing system that calculates tax based on ProductType. Add Food, Electronics, etc., using subclasses.
+LSP Practice: Write a class Vehicle and subclasses like Bike, Boat. Avoid breaking behavior.
+DIP Practice: Make a HomeAppliance system where high-level class Remote works with abstract Appliance, and you can pass TV, AC, etc.
