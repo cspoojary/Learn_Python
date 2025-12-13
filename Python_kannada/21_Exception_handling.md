@@ -7,6 +7,8 @@
   - Unexpected input
   - External factors (like missing files, network issues)
 ## Two Types of Errors in Python
-|Type |	Meaning|
-|Syntax Errors |	Mistakes in the code structure (missing colon, brackets, etc.)|
-|Exceptions |	Errors that happen during execution (e.g., divide by zero)|
+| Type           | Meaning                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| Syntax Errors  | Mistakes in the code structure (missing colon, brackets, etc.)          |
+| Exceptions     | Errors that happen during execution (e.g., divide by zero)              |
+
