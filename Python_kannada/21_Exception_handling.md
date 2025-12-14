@@ -22,3 +22,8 @@ Output:
 SyntaxError: expected ':'
 ```
 ## Example of Runtime Exception
+```Python
+a = 10
+b = 0
+print(a / b)
+```
