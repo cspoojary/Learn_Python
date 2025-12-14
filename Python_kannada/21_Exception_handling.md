@@ -46,3 +46,4 @@ Here’s a table of frequently occurring exceptions you might see:
 | FileNotFoundError    | Trying to open a file that doesn’t exist          | `open("missing.txt")`     |
 
 ## What is Exception Handling?
+Exception Handling is a way to protect your program from crashing when an error occurs.
