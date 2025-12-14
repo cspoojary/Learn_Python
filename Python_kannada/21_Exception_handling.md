@@ -12,3 +12,12 @@
 | Syntax Errors  | Mistakes in the code structure (missing colon, brackets, etc.)          |
 | Exceptions     | Errors that happen during execution (e.g., divide by zero)              |
 
+##  Example of Syntax Error
+```Python
+if True:
+  print("Hello")
+```
+Output:
+```Python
+SyntaxError: expected ':'
+```
