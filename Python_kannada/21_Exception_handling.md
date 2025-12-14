@@ -56,7 +56,7 @@ Python uses:
 
 ### Basic Structure
 ```Python
-ry:
+try:
     # Code that may raise an exception
 except SomeError:
     # What to do if error happens
