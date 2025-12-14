@@ -55,3 +55,13 @@ Python uses:
 - finally
 
 ### Basic Structure
+```Python
+ry:
+    # Code that may raise an exception
+except SomeError:
+    # What to do if error happens
+else:
+    # Run if no error
+finally:
+    # Always run (cleanup, close file, etc.)
+```
