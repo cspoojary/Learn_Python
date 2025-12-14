@@ -44,3 +44,5 @@ Here’s a table of frequently occurring exceptions you might see:
 | ImportError          | Module not found                                 | `import somethingfake`    |
 | NameError            | Using variable not defined                       | `print(x)`                |
 | FileNotFoundError    | Trying to open a file that doesn’t exist          | `open("missing.txt")`     |
+
+## What is Exception Handling?
