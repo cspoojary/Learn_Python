@@ -21,3 +21,4 @@ Output:
 ```Python
 SyntaxError: expected ':'
 ```
+## Example of Runtime Exception
