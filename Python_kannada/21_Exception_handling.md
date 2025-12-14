@@ -47,3 +47,9 @@ Here’s a table of frequently occurring exceptions you might see:
 
 ## What is Exception Handling?
 Exception Handling is a way to protect your program from crashing when an error occurs.
+
+Python uses:
+- try
+- except
+- else
+- finally
