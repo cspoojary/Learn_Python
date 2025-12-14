@@ -65,3 +65,4 @@ else:
 finally:
     # Always run (cleanup, close file, etc.)
 ```
+## Examples of Exception Handling
