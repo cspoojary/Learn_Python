@@ -28,3 +28,6 @@ b = 0
 print(a / b)
 ```
 Output:
+```Python
+ZeroDivisionError: division by zero
+```
