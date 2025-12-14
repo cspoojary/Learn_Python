@@ -66,3 +66,4 @@ finally:
     # Always run (cleanup, close file, etc.)
 ```
 ## Examples of Exception Handling
+### Example 1: Catching Division by Zero
