@@ -31,3 +31,4 @@ Output:
 ```Python
 ZeroDivisionError: division by zero
 ```
+## Common Exception Types in Python
