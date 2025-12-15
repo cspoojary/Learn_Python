@@ -75,3 +75,13 @@ except ZeroDivisionError:
     print("You can't divide by zero!")
 ```
 ### Example 2: Handling Multiple Exceptions
+```Python
+try:
+    num = int(input("Enter a number: "))
+    result = 10 / num
+    print("Result:", result)
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Please enter a valid number.")
+```
