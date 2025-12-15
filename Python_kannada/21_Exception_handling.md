@@ -101,3 +101,6 @@ Avoid catching everything using just except: unless absolutely necessary
 ```Python
 except ValueError:
 ```
+### 🚫 Avoid:
+
+except:
