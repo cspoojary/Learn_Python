@@ -102,5 +102,6 @@ Avoid catching everything using just except: unless absolutely necessary
 except ValueError:
 ```
 ### 🚫 Avoid:
-
+```Python
 except:
+```
