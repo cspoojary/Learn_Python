@@ -67,3 +67,10 @@ finally:
 ```
 ## Examples of Exception Handling
 ### Example 1: Catching Division by Zero
+```Python
+try:
+    a = int(input("Enter a number: "))
+    print(10 / a)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+```
