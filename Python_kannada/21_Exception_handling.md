@@ -74,3 +74,4 @@ try:
 except ZeroDivisionError:
     print("You can't divide by zero!")
 ```
+### Example 2: Handling Multiple Exceptions
