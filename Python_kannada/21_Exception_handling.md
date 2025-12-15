@@ -85,3 +85,13 @@ except ZeroDivisionError:
 except ValueError:
     print("Please enter a valid number.")
 ```
+### Example 3: Using finally
+```Python
+try:
+    file = open("myfile.txt", "r")
+    print(file.read())
+except FileNotFoundError:
+    print("File not found.")
+finally:
+    print("Closing file... (even if error occurred)")
+```
