@@ -95,3 +95,5 @@ except FileNotFoundError:
 finally:
     print("Closing file... (even if error occurred)")
 ```
+### Best Practice: Catch Specific Exceptions First
+Avoid catching everything using just except: unless absolutely necessary
