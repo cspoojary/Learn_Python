@@ -97,6 +97,7 @@ finally:
 ```
 ### Best Practice: Catch Specific Exceptions First
 Avoid catching everything using just except: unless absolutely necessary
+###✅ Good:
 ```Python
 except ValueError:
 ```
