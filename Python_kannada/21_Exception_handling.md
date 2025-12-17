@@ -112,9 +112,8 @@ except:
 - Handle invalid input gracefully.
 
 2. Safe Divider:
-
-Ask two numbers from the user and divide them.
-Handle ZeroDivisionError and ValueError.
+- Ask two numbers from the user and divide them.
+- Handle ZeroDivisionError and ValueError.
 
 3. File Reader:
 
