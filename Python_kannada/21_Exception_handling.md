@@ -116,7 +116,6 @@ except:
 - Handle ZeroDivisionError and ValueError.
 
 3. File Reader:
-
-Ask the user for a file name and try to open it.
-Show error message if file doesn't exist.
-Use finally to print “Program End”.
+- Ask the user for a file name and try to open it.
+- Show error message if file doesn't exist.
+- Use finally to print “Program End”.
