@@ -107,7 +107,7 @@ except:
 ```
 ## Homework
 1. Age Verifier:
-- Ask the user for their age.
+  - Ask the user for their age.
 If age is valid (number), show in how many years they will be 100 years old.
 Handle invalid input gracefully.
 
