@@ -105,3 +105,19 @@ except ValueError:
 ```Python
 except:
 ```
+## Homework
+1. Age Verifier:
+- Ask the user for their age.
+If age is valid (number), show in how many years they will be 100 years old.
+Handle invalid input gracefully.
+
+2. Safe Divider:
+
+Ask two numbers from the user and divide them.
+Handle ZeroDivisionError and ValueError.
+
+3. File Reader:
+
+Ask the user for a file name and try to open it.
+Show error message if file doesn't exist.
+Use finally to print “Program End”.
