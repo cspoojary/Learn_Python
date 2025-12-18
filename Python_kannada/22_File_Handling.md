@@ -19,3 +19,6 @@ File handling allows us to read from and write to files — a common task in alm
 | `t` | Text mode | Used for text files (default) |
 
 ## ✅ Opening a File
+```Python
+file = open("students.txt", "r")
+```
