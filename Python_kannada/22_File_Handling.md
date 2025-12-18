@@ -4,3 +4,6 @@ File handling allows us to read from and write to files — a common task in alm
 - To save user data permanently (like notes, records, etc.)
 - To read content from a file (like student marks, exam results)
 - Helps build real applications like:
+  - Address books
+Billing systems
+Exam report generators
