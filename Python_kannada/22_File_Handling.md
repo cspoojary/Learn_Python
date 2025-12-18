@@ -7,3 +7,13 @@ File handling allows us to read from and write to files — a common task in alm
   - Address books
   - Billing systems
   - Exam report generators
+
+
+| Mode | Meaning | Description |
+|------|--------|-------------|
+| `r` | Read | Read an existing file |
+| `w` | Write | Write new content (overwrites if file exists) |
+| `a` | Append | Add data without deleting old content |
+| `x` | Create | Create a new file (fails if file exists) |
+| `b` | Binary mode | Used for images, videos, etc. |
+| `t` | Text mode | Used for text files (default) |
