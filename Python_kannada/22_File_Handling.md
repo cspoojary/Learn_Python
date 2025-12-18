@@ -17,3 +17,5 @@ File handling allows us to read from and write to files — a common task in alm
 | `x` | Create | Create a new file (fails if file exists) |
 | `b` | Binary mode | Used for images, videos, etc. |
 | `t` | Text mode | Used for text files (default) |
+
+## ✅ Opening a File
