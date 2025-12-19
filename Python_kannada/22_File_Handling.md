@@ -28,3 +28,8 @@ file = open("students.txt", "r")
 
 ## ✅ Reading From a File
 ### 1. read() – Reads entire file
+```Python
+file = open("notes.txt", "r")
+print(file.read())
+file.close()
+```
