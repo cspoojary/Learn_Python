@@ -27,3 +27,4 @@ file = open("students.txt", "r")
 - "r" → mode (read mode)
 
 ## ✅ Reading From a File
+### 1. read() – Reads entire file
