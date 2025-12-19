@@ -22,6 +22,8 @@ File handling allows us to read from and write to files — a common task in alm
 ```Python
 file = open("students.txt", "r")
 ```
-## Parts:
+### Parts:
 - "students.txt" → file name
 - "r" → mode (read mode)
+
+## ✅ Reading From a File
