@@ -33,3 +33,9 @@ file = open("notes.txt", "r")
 print(file.read())
 file.close()
 ```
+### 2. readline() – Reads one line
+```Python
+file = open("notes.txt", "r")
+print(file.readline())
+file.close()
+```
