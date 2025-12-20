@@ -62,3 +62,4 @@ file.write("\nThis line is added later.")
 file.close()
 ```
 ##### 📌 Adds new content without deleting old content.
+## ✅ Using with Statement (Best Practice)
