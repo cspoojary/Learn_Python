@@ -48,3 +48,9 @@ file.close()
 ```
 ## ✅ Writing to a File
 ### rite() – Overwrites entire file
+```Python
+file = open("data.txt", "w")
+file.write("Namaskara Bengaluru!\n")
+file.write("Python is awesome!")
+file.close()
+```
