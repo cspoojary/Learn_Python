@@ -61,3 +61,4 @@ file = open("data.txt", "a")
 file.write("\nThis line is added later.")
 file.close()
 ```
+##### 📌 Adds new content without deleting old content.
