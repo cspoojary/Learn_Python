@@ -54,3 +54,4 @@ file.write("Namaskara Bengaluru!\n")
 file.write("Python is awesome!")
 file.close()
 ```
+##### If the file exists, it clears the old content and writes fresh.
