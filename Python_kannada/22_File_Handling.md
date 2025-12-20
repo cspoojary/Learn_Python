@@ -56,3 +56,8 @@ file.close()
 ```
 ##### If the file exists, it clears the old content and writes fresh.
 ## ✅ Appending to a File
+```Python
+file = open("data.txt", "a")
+file.write("\nThis line is added later.")
+file.close()
+```
