@@ -63,3 +63,8 @@ file.close()
 ```
 ##### 📌 Adds new content without deleting old content.
 ## ✅ Using with Statement (Best Practice)
+```Python
+with open("students.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
