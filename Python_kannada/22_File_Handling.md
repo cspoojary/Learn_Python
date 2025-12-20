@@ -46,3 +46,4 @@ lines = file.readlines()
 print(lines)
 file.close()
 ```
+## ✅ Writing to a File
