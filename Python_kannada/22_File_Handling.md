@@ -40,3 +40,9 @@ print(file.readline())
 file.close()
 ```
 ### 3. readlines() – Reads all lines into a list
+```Python
+file = open("notes.txt", "r")
+lines = file.readlines()
+print(lines)
+file.close()
+```
