@@ -39,3 +39,4 @@ file = open("notes.txt", "r")
 print(file.readline())
 file.close()
 ```
+### 3. readlines() – Reads all lines into a list
