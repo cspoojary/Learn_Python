@@ -47,3 +47,4 @@ print(lines)
 file.close()
 ```
 ## ✅ Writing to a File
+### rite() – Overwrites entire file
