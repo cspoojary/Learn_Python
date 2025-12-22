@@ -69,3 +69,5 @@ with open("students.txt", "r") as file:
     print(content)
 ```
 ##### ✅ Automatically closes the file ✅ Clean and professional
+
+## 🗃️ Writing List of Data to File
