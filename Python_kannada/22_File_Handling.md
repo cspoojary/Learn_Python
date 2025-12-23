@@ -78,3 +78,8 @@ with open("students.txt", "w") as file:
         file.write(student + "\n")
 ```
 ## 📝 Reading File and Processing Each Line
+```Python
+with open("students.txt", "r") as file:
+    for line in file:
+        print("Student:", line.strip())
+```
