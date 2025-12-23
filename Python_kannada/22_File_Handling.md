@@ -76,3 +76,4 @@ students = ["Ravi", "Meena", "Dinesh"]
 with open("students.txt", "w") as file:
     for student in students:
         file.write(student + "\n")
+```
