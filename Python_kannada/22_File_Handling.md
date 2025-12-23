@@ -77,3 +77,4 @@ with open("students.txt", "w") as file:
     for student in students:
         file.write(student + "\n")
 ```
+## 📝 Reading File and Processing Each Line
