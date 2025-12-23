@@ -84,3 +84,4 @@ with open("students.txt", "r") as file:
         print("Student:", line.strip())
 ```
 ##### .strip() removes \n from the end of each line
+## 🧠 Common Errors
