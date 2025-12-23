@@ -71,3 +71,8 @@ with open("students.txt", "r") as file:
 ##### ✅ Automatically closes the file ✅ Clean and professional
 
 ## 🗃️ Writing List of Data to File
+```Pythonn
+students = ["Ravi", "Meena", "Dinesh"]
+with open("students.txt", "w") as file:
+    for student in students:
+        file.write(student + "\n")
