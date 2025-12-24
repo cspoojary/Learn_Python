@@ -93,9 +93,8 @@ with open("students.txt", "r") as file:
 
 ## 🏠 Homework
 1. Create a File and Write
-
-Ask user for 3 friend names.
-Write them into friends.txt, one per line.
+ - Ask user for 3 friend names.
+ - Write them into friends.txt, one per line.
 Append Marks
 
 Ask for student name and marks.
