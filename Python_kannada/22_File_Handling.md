@@ -90,3 +90,21 @@ with open("students.txt", "r") as file:
 | FileNotFoundError   | Trying to read a missing file       |
 | PermissionError     | Access denied                       |
 | IsADirectoryError   | Trying to open a folder as a file   |
+
+## 🏠 Homework
+1. Create a File and Write
+
+Ask user for 3 friend names.
+Write them into friends.txt, one per line.
+Append Marks
+
+Ask for student name and marks.
+Append the info to marks.txt in this format: Ravi - 85
+Read and Count Lines
+
+Read any file and count how many lines it has.
+Example: How many students are listed?
+Search From File
+
+Write a program that searches for a name in friends.txt
+If found, print "Found!" else "Not Found!"
