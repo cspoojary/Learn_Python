@@ -98,10 +98,9 @@ with open("students.txt", "r") as file:
 #### 2. Append Marks
 - Ask for student name and marks.
 - Append the info to marks.txt in this format: Ravi - 85
-Read and Count Lines
-
-Read any file and count how many lines it has.
-Example: How many students are listed?
+#### 3.Read and Count Lines
+- Read any file and count how many lines it has.
+- Example: How many students are listed?
 Search From File
 
 Write a program that searches for a name in friends.txt
