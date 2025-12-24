@@ -96,9 +96,8 @@ with open("students.txt", "r") as file:
  - Ask user for 3 friend names.
  - Write them into friends.txt, one per line.
 #### 2. Append Marks
-
-Ask for student name and marks.
-Append the info to marks.txt in this format: Ravi - 85
+- Ask for student name and marks.
+- Append the info to marks.txt in this format: Ravi - 85
 Read and Count Lines
 
 Read any file and count how many lines it has.
