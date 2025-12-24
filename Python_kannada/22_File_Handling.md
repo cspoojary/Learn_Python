@@ -95,7 +95,7 @@ with open("students.txt", "r") as file:
 #### 1. Create a File and Write
  - Ask user for 3 friend names.
  - Write them into friends.txt, one per line.
-Append Marks
+#### 2. Append Marks
 
 Ask for student name and marks.
 Append the info to marks.txt in this format: Ravi - 85
