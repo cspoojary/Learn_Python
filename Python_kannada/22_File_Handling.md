@@ -101,7 +101,7 @@ with open("students.txt", "r") as file:
 #### 3. Read and Count Lines
 - Read any file and count how many lines it has.
 - Example: How many students are listed?
-Search From File
+#### 4. Search From File
 
 Write a program that searches for a name in friends.txt
 If found, print "Found!" else "Not Found!"
