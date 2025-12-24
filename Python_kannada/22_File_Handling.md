@@ -92,7 +92,7 @@ with open("students.txt", "r") as file:
 | IsADirectoryError   | Trying to open a folder as a file   |
 
 ## 🏠 Homework
-##### 1. Create a File and Write
+#### 1. Create a File and Write
  - Ask user for 3 friend names.
  - Write them into friends.txt, one per line.
 Append Marks
