@@ -85,3 +85,8 @@ with open("students.txt", "r") as file:
 ```
 ##### .strip() removes \n from the end of each line
 ## 🧠 Common Errors
+| Error               | Cause                              |
+|---------------------|------------------------------------|
+| FileNotFoundError   | Trying to read a missing file       |
+| PermissionError     | Access denied                       |
+| IsADirectoryError   | Trying to open a folder as a file   |
