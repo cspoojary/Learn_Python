@@ -8,3 +8,4 @@ Understanding these concepts helps you reuse code, organize projects, and use ex
 import math
 print(math.sqrt(25))  # Output: 5.0
 ```
+##### math is a built-in module. We can use its functions like sqrt(), pow(), etc.
