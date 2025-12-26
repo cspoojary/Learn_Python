@@ -4,3 +4,7 @@ Understanding these concepts helps you reuse code, organize projects, and use ex
 - A module is simply a .py file containing functions, classes, or variables.
 - We can import it and use its code in another file.
 ### 📘 Example: math module (built-in)
+```Python
+import math
+print(math.sqrt(25))  # Output: 5.0
+```
