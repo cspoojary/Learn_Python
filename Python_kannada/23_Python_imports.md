@@ -12,3 +12,11 @@ print(math.sqrt(25))  # Output: 5.0
 
 ## 🔧 Creating Your Own Module
 Let’s say we have a file greetings.py:
+```Python
+# greetings.py
+def namaskara(name):
+    print(f"Namaskara {name}!")
+
+def goodbye(name):
+    print(f"Goodbye {name}!")
+```
