@@ -20,3 +20,4 @@ def namaskara(name):
 def goodbye(name):
     print(f"Goodbye {name}!")
 ```
+Now use it in another file:
