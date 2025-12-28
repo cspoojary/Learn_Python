@@ -36,3 +36,4 @@ greetings.goodbye("Meena")
 | `import module as alias`   | Shorten name, e.g., `import numpy as np`                                  |
 | `from module import function` | Import a specific function only                                        |
 | `from module import *`     | Imports everything (**❗ Avoid in large projects**)                       |
+### 🔹 Example:
