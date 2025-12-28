@@ -45,7 +45,9 @@ print(sqrt(36))  # No need to write math.sqrt()
 - A package is a folder containing multiple modules and an optional __init__.py file.
 - Helps organize large projects into folders.
 ### 📂 Example Project Structure:
+```Python
 school/
 ├── __init__.py
 ├── students.py
 ├── teachers.py
+```
