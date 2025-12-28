@@ -30,3 +30,9 @@ greetings.goodbye("Meena")
 ```
 ✅ This helps split large projects into reusable smaller files.
 ## 📥 import Variations
+| Syntax                     | Use Case                                                                 |
+|----------------------------|--------------------------------------------------------------------------|
+| `import module`            | General import – use like `module.function()`                             |
+| `import module as alias`   | Shorten name, e.g., `import numpy as np`                                  |
+| `from module import function` | Import a specific function only                                        |
+| `from module import *`     | Imports everything (**❗ Avoid in large projects**)                       |
