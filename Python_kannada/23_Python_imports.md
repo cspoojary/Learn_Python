@@ -37,3 +37,7 @@ greetings.goodbye("Meena")
 | `from module import function` | Import a specific function only                                        |
 | `from module import *`     | Imports everything (**❗ Avoid in large projects**)                       |
 ### 🔹 Example:
+```Python
+from math import sqrt
+print(sqrt(36))  # No need to write math.sqrt()
+```
