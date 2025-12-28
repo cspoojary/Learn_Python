@@ -52,3 +52,7 @@ school/
 ├── teachers.py
 ```
 Use in code:
+```Python
+from school import students
+students.add_student("Meghana")
+```
