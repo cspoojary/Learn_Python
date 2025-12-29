@@ -57,3 +57,4 @@ from school import students
 students.add_student("Meghana")
 ```
 ## 🏛️ Python Libraries
+- A library is a collection of modules and packages made for a specific purpose
