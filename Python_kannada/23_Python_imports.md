@@ -73,3 +73,7 @@ students.add_student("Meghana")
 ```Python
 pip install wikipedia
 ```
+```Python
+import wikipedia
+print(wikipedia.summary("Virat Kohli"))
+```
