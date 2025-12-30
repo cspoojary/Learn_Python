@@ -59,3 +59,13 @@ students.add_student("Meghana")
 ## 🏛️ Python Libraries
 - A library is a collection of modules and packages made for a specific purpose
 ### Popular Libraries in Python:
+
+| Library  | Purpose |
+|---------|---------|
+| math    | Math functions |
+| random  | Random number generation |
+| datetime| Date and time |
+| os      | Operating system tasks |
+| sys     | System-specific parameters |
+| json    | Work with JSON data |
+| re      | Regular expressions |
