@@ -81,7 +81,8 @@ print(wikipedia.summary("Virat Kohli"))
 #### 1. Create Your Module
 - Write a file calculations.py with functions: add(), subtract(), multiply()
 - Use it in another file by importing and testing all functions.
-Random Name Selector
+
+#### 2. Random Name Selector
 
 Use the random module to pick a winner from a list of names.
 Math Helper
