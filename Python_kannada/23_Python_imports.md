@@ -69,3 +69,4 @@ students.add_student("Meghana")
 | sys     | System-specific parameters |
 | json    | Work with JSON data |
 | re      | Regular expressions |
+##### Example:
