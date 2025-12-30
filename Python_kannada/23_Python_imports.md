@@ -77,7 +77,7 @@ pip install wikipedia
 import wikipedia
 print(wikipedia.summary("Virat Kohli"))
 ```
-🏠 Homework
+## 🏠 Homework
 Create Your Module
 
 Write a file calculations.py with functions: add(), subtract(), multiply()
