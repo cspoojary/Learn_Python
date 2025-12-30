@@ -84,7 +84,8 @@ print(wikipedia.summary("Virat Kohli"))
 
 #### 2. Random Name Selector
 - Use the random module to pick a winner from a list of names.
-Math Helper
+- 
+#### 3. Math Helper
 
 Use the math module to:
 
