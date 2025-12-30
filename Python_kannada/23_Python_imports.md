@@ -77,3 +77,25 @@ pip install wikipedia
 import wikipedia
 print(wikipedia.summary("Virat Kohli"))
 ```
+🏠 Homework
+Create Your Module
+
+Write a file calculations.py with functions: add(), subtract(), multiply()
+Use it in another file by importing and testing all functions.
+Random Name Selector
+
+Use the random module to pick a winner from a list of names.
+Math Helper
+
+Use the math module to:
+
+Find square root of 81
+Get factorial of 6
+Get pi value and multiply by 2
+Organize Code in a Package
+
+Create a package called library with two modules:
+
+books.py (function: list_books())
+members.py (function: list_members())
+Import and use both in a main file.
