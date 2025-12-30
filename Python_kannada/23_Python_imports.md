@@ -86,12 +86,10 @@ print(wikipedia.summary("Virat Kohli"))
 - Use the random module to pick a winner from a list of names.
 
 #### 3. Math Helper
-
-Use the math module to:
-
-Find square root of 81
-Get factorial of 6
-Get pi value and multiply by 2
+- Use the math module to:
+    - Find square root of 81
+    - Get factorial of 6
+    - Get pi value and multiply by 2
 Organize Code in a Package
 
 Create a package called library with two modules:
