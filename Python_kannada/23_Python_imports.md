@@ -70,3 +70,6 @@ students.add_student("Meghana")
 | json    | Work with JSON data |
 | re      | Regular expressions |
 ##### Example:
+```Python
+pip install wikipedia
+```
