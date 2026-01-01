@@ -12,3 +12,4 @@ This means:
 1. You can pass functions as arguments
 2. You can return functions from other functions
 3. You can store them in variables
+## ⭐ @decorator Syntax
