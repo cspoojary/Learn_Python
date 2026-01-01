@@ -11,4 +11,4 @@ Think of it like wrapping a dosa with chutney — dosa (function) remains the sa
 This means:
 1. You can pass functions as arguments
 2. You can return functions from other functions
-You can store them in variables
+3. You can store them in variables
