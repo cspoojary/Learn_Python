@@ -10,5 +10,5 @@ Think of it like wrapping a dosa with chutney — dosa (function) remains the sa
 ## ✅ Functions are First-Class Citizens in Python
 This means:
 1. You can pass functions as arguments
-You can return functions from other functions
+2. You can return functions from other functions
 You can store them in variables
