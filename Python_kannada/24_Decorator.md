@@ -8,3 +8,4 @@ Think of it like wrapping a dosa with chutney — dosa (function) remains the sa
 - Helps write clean and reusable code
 
 ## ✅ Functions are First-Class Citizens in Python
+This means:
