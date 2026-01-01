@@ -16,3 +16,15 @@ This means:
 
 ## ⭐ @decorator Syntax
 Python provides a shortcut for applying decorators using @.
+def welcome(func):
+    def wrapper():
+        print("Namaskara!")
+        func()
+        print("Take care!")
+    return wrapper
+
+@welcome
+def intro():
+    print("I am Chandan from Karnataka.")
+
+intro()
