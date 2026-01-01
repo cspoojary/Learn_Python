@@ -15,3 +15,4 @@ This means:
 3. You can store them in variables
 
 ## ⭐ @decorator Syntax
+Python provides a shortcut for applying decorators using @.
