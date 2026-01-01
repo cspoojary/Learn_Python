@@ -5,4 +5,4 @@ Think of it like wrapping a dosa with chutney — dosa (function) remains the sa
 ## 📌 Why Use Decorators?
 - To add extra functionality to existing functions
 - Used in logging, timing, authentication, access control, etc.
-Helps write clean and reusable code
+- Helps write clean and reusable code
