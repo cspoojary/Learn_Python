@@ -16,6 +16,7 @@ This means:
 
 ## ⭐ @decorator Syntax
 Python provides a shortcut for applying decorators using @.
+```Python
 def welcome(func):
     def wrapper():
         print("Namaskara!")
