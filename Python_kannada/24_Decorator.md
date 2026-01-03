@@ -62,3 +62,16 @@ greet()
 ```
 ## 🎯 Another Example
 Let’s log when a user logs in:
+```Python
+def login_required(func):
+    def wrapper():
+        print("Checking if user is logged in...")
+        func()
+    return wrapper
+
+@login_required
+def view_profile():
+    print("Ravi's profile opened.")
+
+view_profile()
+```
