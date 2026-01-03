@@ -30,3 +30,4 @@ def intro():
 
 intro()
 ```
+## 📥 Decorator with Arguments
