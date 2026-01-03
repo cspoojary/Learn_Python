@@ -60,3 +60,4 @@ def greet():
 
 greet()
 ```
+## 🎯 Another Example
