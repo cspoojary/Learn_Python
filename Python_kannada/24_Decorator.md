@@ -32,3 +32,17 @@ intro()
 ```
 ## 📥 Decorator with Arguments
 Let’s say we want to greet the person by name.
+```Python
+def greet(func):
+    def wrapper(name):
+        print("Hello!")
+        func(name)
+        print("Have a nice day!")
+    return wrapper
+
+@greet
+def say_name(name):
+    print(f"My name is {name}")
+
+say_name("Chaithu")
+```
