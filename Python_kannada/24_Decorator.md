@@ -46,3 +46,4 @@ def say_name(name):
 
 say_name("Chaithu")
 ```
+## ✅ Decorator for Logging
