@@ -47,3 +47,16 @@ def say_name(name):
 say_name("Chaithu")
 ```
 ## ✅ Decorator for Logging
+```Python
+def logger(func):
+    def wrapper():
+        print(f"Function '{func.__name__}' is being called.")
+        func()
+    return wrapper
+
+@logger
+def greet():
+    print("Hey there!")
+
+greet()
+```
