@@ -75,3 +75,4 @@ def view_profile():
 
 view_profile()
 ```
+## 🏠 Homework
