@@ -31,3 +31,4 @@ def intro():
 intro()
 ```
 ## 📥 Decorator with Arguments
+Let’s say we want to greet the person by name.
