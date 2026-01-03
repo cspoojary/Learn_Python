@@ -61,3 +61,4 @@ def greet():
 greet()
 ```
 ## 🎯 Another Example
+Let’s log when a user logs in:
