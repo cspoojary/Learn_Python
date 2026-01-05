@@ -76,3 +76,18 @@ def view_profile():
 view_profile()
 ```
 ## 🏠 Homework
+1. Create a Decorator to Log Calls
+- Create a decorator called log_function_call that prints function name and when it was called.
+- Apply it to a function like add().
+Create a Decorator That Times a Function
+
+Use time module to record how long a function takes to run.
+Apply it to a long_task() function that sleeps for 2 seconds.
+Multiple Decorators
+
+Create two decorators: one adds "===" above and below output, another adds >>> before the output.
+Apply both on a function that prints your name.
+Create a Decorator That Only Allows a Specific User
+
+Create a function view_data(name)
+Decorator allow_only(name) should print “Access Denied” if the name is not "admin"
