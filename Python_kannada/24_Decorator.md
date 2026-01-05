@@ -87,7 +87,7 @@ view_profile()
 3. Multiple Decorators
 - Create two decorators: one adds "===" above and below output, another adds >>> before the output.
 - Apply both on a function that prints your name.
-Create a Decorator That Only Allows a Specific User
-
-Create a function view_data(name)
-Decorator allow_only(name) should print “Access Denied” if the name is not "admin"
+  
+4. Create a Decorator That Only Allows a Specific User
+- Create a function view_data(name)
+- Decorator allow_only(name) should print “Access Denied” if the name is not "admin"
