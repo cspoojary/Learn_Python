@@ -83,7 +83,8 @@ view_profile()
 2. Create a Decorator That Times a Function
 - Use time module to record how long a function takes to run.
 - Apply it to a long_task() function that sleeps for 2 seconds.
-Multiple Decorators
+
+3. Multiple Decorators
 
 Create two decorators: one adds "===" above and below output, another adds >>> before the output.
 Apply both on a function that prints your name.
