@@ -85,9 +85,8 @@ view_profile()
 - Apply it to a long_task() function that sleeps for 2 seconds.
 
 3. Multiple Decorators
-
-Create two decorators: one adds "===" above and below output, another adds >>> before the output.
-Apply both on a function that prints your name.
+- Create two decorators: one adds "===" above and below output, another adds >>> before the output.
+- Apply both on a function that prints your name.
 Create a Decorator That Only Allows a Specific User
 
 Create a function view_data(name)
