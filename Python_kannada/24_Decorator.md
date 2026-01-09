@@ -89,5 +89,5 @@ view_profile()
     - Apply both on a function that prints your name.
   
 4. Create a Decorator That Only Allows a Specific User
-- Create a function view_data(name)
-- Decorator allow_only(name) should print “Access Denied” if the name is not "admin"
+    - Create a function view_data(name)
+    - Decorator allow_only(name) should print “Access Denied” if the name is not "admin"
