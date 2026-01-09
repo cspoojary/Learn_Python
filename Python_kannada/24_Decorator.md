@@ -78,7 +78,7 @@ view_profile()
 ## 🏠 Homework
 1. Create a Decorator to Log Calls
    - Create a decorator called log_function_call that prints function name and when it was called.
-    - Apply it to a function like add().
+   - Apply it to a function like add().
   
 2. Create a Decorator That Times a Function
 - Use time module to record how long a function takes to run.
