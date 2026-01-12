@@ -5,4 +5,6 @@
 ## 1. map()
 - Definition: Applies a given function to every element of an iterable.
 - Syntax:
-
+```Python
+map(function, iterable)
+```
