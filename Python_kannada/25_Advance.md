@@ -8,3 +8,5 @@
 ```Python
 map(function, iterable)
 ```
+- Returns a map object (iterator). Usually converted to a list or tuple.
+
