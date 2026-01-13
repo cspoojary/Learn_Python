@@ -10,3 +10,4 @@ map(function, iterable)
 ```
 - Returns a map object (iterator). Usually converted to a list or tuple.
 
+## ✅ Example 1: Squaring numbers
