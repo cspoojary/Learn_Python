@@ -28,3 +28,9 @@ print(list(result))  # [2, 4, 6, 8, 10]
 ```
 ## ✅ Example 3: Multiple iterables
 ```Python
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+result = map(lambda x, y: x + y, a, b)
+print(list(result))  # [5, 7, 9]
+```
