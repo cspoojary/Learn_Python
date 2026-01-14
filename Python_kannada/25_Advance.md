@@ -34,3 +34,4 @@ b = [4, 5, 6]
 result = map(lambda x, y: x + y, a, b)
 print(list(result))  # [5, 7, 9]
 ```
+---
