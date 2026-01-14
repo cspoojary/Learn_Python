@@ -19,3 +19,4 @@ def square(x):
 
 result = map(square, numbers)
 print(list(result))  # [1, 4, 9, 16, 25]
+```
