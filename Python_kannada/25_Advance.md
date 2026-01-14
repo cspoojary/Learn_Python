@@ -27,3 +27,4 @@ result = map(lambda x: x * 2, numbers)
 print(list(result))  # [2, 4, 6, 8, 10]
 ```
 ## ✅ Example 3: Multiple iterables
+```Python
