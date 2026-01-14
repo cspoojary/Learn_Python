@@ -21,3 +21,4 @@ result = map(square, numbers)
 print(list(result))  # [1, 4, 9, 16, 25]
 ```
 ## ✅ Example 2: Using lambda with map
+```Python
