@@ -37,3 +37,4 @@ print(list(result))  # [5, 7, 9]
 ---
 ## 2. filter()
 - Definition: Filters elements of an iterable based on a condition (returns only those for which the function returns True).
+- Syntax:
