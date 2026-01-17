@@ -68,3 +68,15 @@ print(list(result))  # [30, 47, 50]
    ```Python
     reduce(function, iterable[, initializer])
    ```
+### Example 1: Sum of numbers
+```Python
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+
+def add(x, y):
+    return x + y
+
+result = reduce(add, numbers)
+print(result)  # 15
+```
