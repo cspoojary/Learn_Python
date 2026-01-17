@@ -60,3 +60,7 @@ print(list(result))  # [30, 47, 50]
 ## 3. reduce()
 - Definition: Applies a function cumulatively to the items of an iterable.
 - It’s like rolling computation (reduce the iterable into a single value).
+- Import needed:
+    ```Python
+    from functools import reduce
+    ```
