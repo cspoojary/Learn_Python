@@ -41,3 +41,13 @@ print(list(result))  # [5, 7, 9]
 ```Python
 filter(function, iterable)
 ```
+### Example 1: Even numbers
+```Python
+numbers = [1, 2, 3, 4, 5, 6]
+
+def is_even(x):
+    return x % 2 == 0
+
+result = filter(is_even, numbers)
+print(list(result))  # [2, 4, 6]
+```
