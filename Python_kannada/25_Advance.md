@@ -64,3 +64,7 @@ print(list(result))  # [30, 47, 50]
     ```Python
     from functools import reduce
     ```
+- Syntax:
+   ```Python
+    reduce(function, iterable[, initializer])
+   ```
