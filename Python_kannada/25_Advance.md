@@ -51,3 +51,9 @@ def is_even(x):
 result = filter(is_even, numbers)
 print(list(result))  # [2, 4, 6]
 ```
+### Example 2: Using lambda
+```Python
+numbers = [10, 25, 30, 47, 50]
+result = filter(lambda x: x > 25, numbers)
+print(list(result))  # [30, 47, 50]
+```
