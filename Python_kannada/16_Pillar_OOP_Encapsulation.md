@@ -26,3 +26,10 @@ Explanation:
 - self.__salary = salary: Private attribute, cannot be accessed directly.
 - print(emp.name): Prints "Fedrick" because name is public.
 - print(emp.__salary): Raises an error because __salary is private and hidden.
+
+Why do we need Encapsulation?
+- Protects data from unauthorized access and accidental modification.
+- Controls data updates using getter/setter methods with validation.
+- Enhances modularity by hiding internal implementation details.
+- Simplifies maintenance through centralized data handling logic.
+- Reflects real-world scenarios like restricting direct access to a bank account balance.
