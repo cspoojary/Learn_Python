@@ -42,3 +42,22 @@ Why do we need Encapsulation?
 ### Public 
 - Public members are variables or methods that can be accessed from anywhere inside the class, outside the class or from other modules. By default, all members in Python are public.
 - They are defined without any underscore prefix (e.g., self.name).
+
+Example: This example shows how a public attribute (name) and a public method (display_name) can be accessed from outside the class using an object.
+```Python
+class Employee:
+    def __init__(self, name):
+        self.name = name  #public attributes
+
+    def display_name(self):    #public mathod
+        print(self.name)
+
+emp = Employee("Chaithanya")
+emp.display_name()
+print(emp.name)
+```
+Output:
+```Python
+Chaithanya
+Chaithanya
+```
