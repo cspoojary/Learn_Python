@@ -1,5 +1,20 @@
 # Introduction to OOP Concepts & Classes/Objects
 In this video, we will begin our journey into Object-Oriented Programming (OOP) with the foundational concepts of classes and objects.
+## Python OOP Concepts
+- Object Oriented Programming is a fundamental concept in Python, empowering developers to build modular, maintainable and scalable applications.
+- OOP is a way of organizing code that uses objects and classes to represent real world entities and theie behaviour. In OOP, object has attributes thing that has specific data and can perform certain actions usiing methods.
+
+### Key Features of OOP in Python:
+- Organizes code into classes and objects
+- Supports encapsulation to group data and methods together
+- Enables inheritance for reusability and hierarchy
+- Allows polymorphism for flexible method implementation
+- Improves modularity, scalability, and maintainability
+
+### Characteristics of OOP (Object Oriented Programming)
+Python supports the core principles of object-oriented programming, which are the building blocks for designing robust and reusable software.
+
+---
 
 ---
 ## 1. What is Object-Oriented Programming (OOP)?
