@@ -89,3 +89,41 @@ Output:
 Chethan
 Age: 25
 ```
+Explanation:
+- self._age: Defined with a single underscore, marking it as protected.
+- SubEmployee: Inherits from Employee and can access _age directly.
+- Protected members should not be accessed outside the class hierarchy, but Python does not enforce this rule strictly.
+
+### Private
+- Private members are variables or methods that cannot be accessed directly from outside the class. They are used to restrict access and protect internal data.
+- In Python, private members are defined with a double underscore prefix (e.g., self.__salary). - Python applies name mangling by internally renaming them (e.g., __salary becomes _ClassName__salary) to prevent direct access.
+
+Example: This example shows how a private attribute (__salary) is accessed within the class using a public method, demonstrating that private members cannot be accessed directly from outside the class.
+```Python
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name          # public
+        self.__salary = salary    # private
+
+    def show_salary(self):
+        print("Salary:", self.__salary)
+
+emp = Employee("Chaithanya", 60000)
+print(emp.name)          # Public accessible
+emp.show_salary()        # Accessing private correctly
+# print(emp.__salary)    # Error: Not accessible directly
+```
+Output
+```Python
+Chaithanya
+Salary: 60000
+```
+Explanation:
+- self.__salary: Defined with double underscores, so it is private.
+- show_salary(): A public method that provides safe access to the private attribute.
+- Attempting emp.__salary causes an AttributeError, proving private members cannot be accessed directly.
+  
+Declaring Protected and Private Methods
+In Python, you can control method access levels using naming conventions:
+- Use a single underscore (_) before a method name to indicate it is protected meant to be used within class or its subclasses.
+- Use a double underscore (__) to define a private method accessible only within class due to name mangling.
