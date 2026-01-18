@@ -33,3 +33,12 @@ Why do we need Encapsulation?
 - Enhances modularity by hiding internal implementation details.
 - Simplifies maintenance through centralized data handling logic.
 - Reflects real-world scenarios like restricting direct access to a bank account balance.
+
+## Types of Access Modifier
+- Public
+- Protected
+- Private
+
+### Public 
+- Public members are variables or methods that can be accessed from anywhere inside the class, outside the class or from other modules. By default, all members in Python are public.
+- They are defined without any underscore prefix (e.g., self.name).
