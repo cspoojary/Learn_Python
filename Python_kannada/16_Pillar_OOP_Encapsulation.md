@@ -61,3 +61,31 @@ Output:
 Chaithanya
 Chaithanya
 ```
+Explanation:
+- self.name: Declared without underscores, so it is public.
+- display_name(): Public method that prints the value of the public attribute.
+- emp.name: Directly accessed from outside the class, showing public members are fully accessible.
+
+### Protected
+- Protected members are variables or methods that are intended to be accessed only within the class and its subclasses. They are not strictly private but should be treated as internal.
+- In Python, protected members are defined with a single underscore prefix (e.g., self._name).
+
+Example: This example shows how a protected attribute (_age) can be accessed within a subclass, demonstrating that protected members are meant for use within the class and its subclasses.
+```Python
+class Employee:
+    def __init__(self, name, age):
+        self.name = name    #public
+        self._age = age    #protected
+
+class SubEmployee(Employee):
+    def show_age(self):
+        print("Age: ",self._age) #Accessible in subclass
+emp = SubEmployee("Chethan", 25)
+print(emp.name)    #Public accessible
+emp.show_age()    # Protected accessed through subclass
+```
+Output:
+```
+Chethan
+Age: 25
+```
