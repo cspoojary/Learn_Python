@@ -161,3 +161,5 @@ Explanation:
 - _show_balance(): (Protected method) Accessible from outside, but intended for internal or subclass use.
 - __update_balance(): (Private method) Only accessible inside class due to name mangling.
 - deposit(): Public method that safely uses both private and protected methods.
+---
+## Getter and Setter Methods
