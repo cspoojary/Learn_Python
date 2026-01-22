@@ -189,8 +189,13 @@ print(emp.get_salary())  # Access salary using getter
 emp.set_salary(60000)   # Update salary using setter
 print(emp.get_salary())
 ```
-Output
+### Output
 ```Python
 50000
 60000
 ```
+### Explanation:
+- __salary is a private attribute, so it can't be accessed directly from outside the class.
+- get_salary() is a getter method that safely returns the current salary.
+- set_salary(amount) is a setter method that updates the salary only if the amount is positive.
+- The object emp uses these methods to access and modify the salary while keeping the data protected.
