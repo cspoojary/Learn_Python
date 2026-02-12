@@ -26,4 +26,10 @@ while i <= n:
     i = i +1
 ```
 #Printing even numbers from 1 to 20
-`
+```Python
+i = 1
+while i <= 20:
+    if i % 2 ==0:
+        print(i)
+    i = i+1
+```
