@@ -41,5 +41,8 @@ while i <= 20:
 ```
 #Printing alphabbet
 ```Python
-
+a = ord('A')
+while a <= ord('Z'):
+    print(chr(a))
+    a += 1
 ```
