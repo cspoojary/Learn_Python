@@ -40,3 +40,6 @@ while i <= 20:
     i = i + 2
 ```
 #Printing alphabbet
+```Python
+
+```
