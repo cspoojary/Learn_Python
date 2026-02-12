@@ -25,3 +25,5 @@ while i <= n:
     print(i)
     i = i +1
 ```
+#Printing even numbers from 1 to 20
+`
