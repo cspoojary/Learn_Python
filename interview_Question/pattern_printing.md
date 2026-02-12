@@ -11,3 +11,11 @@ while i <= n:
     print(i)
     i = i +1
 ```
+#Printing 20 to 1
+```Python
+i = 20
+while i > 0:
+    print(i)
+    i = i - 1
+```
+
