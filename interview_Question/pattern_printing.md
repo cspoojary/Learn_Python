@@ -18,4 +18,10 @@ while i > 0:
     print(i)
     i = i - 1
 ```
-
+```Python
+i = 1
+n = 20
+while i <= n:
+    print(i)
+    i = i +1
+```
