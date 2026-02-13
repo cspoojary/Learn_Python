@@ -1,4 +1,4 @@
-Print 1 To 100 
+## Print 1 To 100 
 ```python
 for i in range(1,101):
     print(i)
