@@ -55,6 +55,7 @@ while i <= 10:
     i = i + 1
 ```
 #### OutPut:
+```Python
 Enter the number: 9
 9 X 1 = 9
 9 X 2 = 18
@@ -66,7 +67,7 @@ Enter the number: 9
 9 X 8 = 72
 9 X 9 = 81
 9 X 10 = 90
-
+```
 
 ### Reverse
 ```Python
