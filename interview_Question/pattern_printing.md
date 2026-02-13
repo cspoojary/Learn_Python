@@ -46,3 +46,11 @@ while a <= ord('Z'):
     print(chr(a))
     a += 1
 ```
+#Print multiplication of given number.
+```Python
+n = int(input("Enter the number: "))
+i = 1
+while i <= 10:
+    print(n,'X',i,'=',n*i)
+    i = i + 1
+```
