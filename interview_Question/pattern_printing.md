@@ -46,7 +46,7 @@ while a <= ord('Z'):
     print(chr(a))
     a += 1
 ```
-#Print multiplication of given number.
+### Print multiplication of given number.
 ```Python
 n = int(input("Enter the number: "))
 i = 1
