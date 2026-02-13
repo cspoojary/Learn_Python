@@ -1,4 +1,4 @@
-## Print 1 To 100 
+### Print 1 To 100 
 ```python
 for i in range(1,101):
     print(i)
@@ -11,7 +11,7 @@ while i <= n:
     print(i)
     i = i +1
 ```
-#Printing 20 to 1
+### Printing 20 to 1
 ```Python
 i = 20
 while i > 0:
