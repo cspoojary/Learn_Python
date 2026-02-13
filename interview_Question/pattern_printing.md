@@ -94,3 +94,17 @@ print("The reverse of the n: ",rev)
 Output:
 The reverse of the n:  7291
 ```
+
+```Python
+n = 9240
+rev = 0
+while n != 0:
+    digit = n % 10
+    rev = rev * 10 + digit
+    n = n // 10
+print(str(rev).zfill(4))
+
+Output:
+0429
+
+```
