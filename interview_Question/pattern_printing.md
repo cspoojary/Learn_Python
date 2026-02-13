@@ -53,9 +53,7 @@ i = 1
 while i <= 10:
     print(n,'X',i,'=',n*i)
     i = i + 1
-```
-#### OutPut:
-```Python
+
 Enter the number: 9
 9 X 1 = 9
 9 X 2 = 18
@@ -68,6 +66,7 @@ Enter the number: 9
 9 X 9 = 81
 9 X 10 = 90
 ```
+
 
 ### Reverse
 ```Python
