@@ -25,7 +25,7 @@ while i <= n:
     print(i)
     i = i +1
 ```
-#Printing even numbers from 1 to 20
+### Printing even numbers from 1 to 20
 ```Python
 i = 1
 while i <= 20:
@@ -39,7 +39,7 @@ while i <= 20:
     print(i)
     i = i + 2
 ```
-#Printing alphabbet
+### Printing alphabbet
 ```Python
 a = ord('A')
 while a <= ord('Z'):
