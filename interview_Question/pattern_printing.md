@@ -143,3 +143,13 @@ while n != 0:
 print(count)
 ```
 ### Reverse and store in a variable
+```Python
+n = 512
+rev = 0
+while i != 0:
+    rev = (rev * 10) + (n % 10)
+    n = n // 10
+print(rev)
+```
+
+
