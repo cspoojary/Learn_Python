@@ -199,4 +199,14 @@ Number is palindrome.
 n = 1927
 rev = 0
 temp = n
-while i 
+while n != 0:
+    rev = (rev * 10)+(n % 10)
+    n = n // 10
+if rev == temp:
+    print("Number is palindrome.")
+else:
+    print("Number is not palindrome.")
+
+Output:
+Number is not palindrome.
+```
