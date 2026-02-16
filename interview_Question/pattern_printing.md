@@ -170,7 +170,7 @@ Output:
 ```Python
 n = 4536
 rev = 0
-while i != 0:
+while n != 0:
     rev = (rev * 10) + (n % 10)
     n = n // 10
 print(rev)
@@ -184,7 +184,7 @@ Output:
 n = 12321
 rev = 0
 temp = n
-while i n != 0:
+while  n != 0:
     rev = (rev * 10) + (n % 10)
     n = n // 10
 if rev == temp:
@@ -195,3 +195,8 @@ else:
 Output:
 Number is palindrome.
 ```
+```Python
+n = 1927
+rev = 0
+temp = n
+while i 
