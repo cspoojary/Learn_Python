@@ -142,3 +142,4 @@ while n != 0:
     n = n//10
 print(count)
 ```
+### Reverse and store in a variable
