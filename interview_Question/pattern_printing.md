@@ -210,3 +210,18 @@ else:
 Output:
 Number is not palindrome.
 ```
+```Python
+n = 1
+rev = 0
+temp = n
+while n != 0:
+    rev = (rev*10)+( n % 10)
+    n = n  // 10
+if temp == rev:
+    print("Number is palindrome.")
+else:
+    print("Number is not palindrome.")
+
+Output:
+Number is palindrome.
+```
