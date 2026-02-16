@@ -116,6 +116,9 @@ while n != 0:
     sum = sum + (n % 10)
     n = n // 10
 print(sum)
+
+Output:
+8
 ```
 ```Python
 n = 1927
@@ -124,6 +127,9 @@ while n != 0:
     sum = sum + (n % 10)
     n = n // 10
 print(sum)
+
+Output:
+19
 ```
 ```Python
 n = 9241
@@ -132,6 +138,9 @@ while n != 0:
     sum = sum + (n%10)
     n = n // 10
 print(sum)
+
+Output:
+16
 ```
 ### Count of digit
 ```Python
