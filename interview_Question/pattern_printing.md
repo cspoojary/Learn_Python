@@ -152,4 +152,12 @@ while i != 0:
 print(rev)
 ```
 
+```Python
+n = 4536
+rev = 0
+while i != 0:
+    rev = (rev * 10) + (n % 10)
+    n = n // 10
+print(rev)
+```
 
