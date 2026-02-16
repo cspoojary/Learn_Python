@@ -150,15 +150,21 @@ while n != 0:
     count = count+1
     n = n//10
 print(count)
+
+Output:
+4
 ```
 ### Reverse and store in a variable
 ```Python
 n = 512
 rev = 0
-while i != 0:
+while n != 0:
     rev = (rev * 10) + (n % 10)
     n = n // 10
 print(rev)
+
+Output:
+215
 ```
 
 ```Python
@@ -168,6 +174,9 @@ while i != 0:
     rev = (rev * 10) + (n % 10)
     n = n // 10
 print(rev)
+
+Output:
+6354
 ```
 
 ### Palindrome
@@ -182,8 +191,7 @@ if rev == temp:
     print("Number is palindrome.")
 else:
     print("Number is not a palindrome.")
-```
+
 Output:
-```Python
 Number is palindrome.
 ```
