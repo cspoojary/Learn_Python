@@ -161,3 +161,20 @@ while i != 0:
 print(rev)
 ```
 
+### Palindrome
+```Python
+n = 12321
+rev = 0
+temp = n
+while i n != 0:
+    rev = (rev * 10) + (n % 10)
+    n = n // 10
+if rev == temp:
+    print("Number is palindrome.")
+else:
+    print("Number is not a palindrome.")
+```
+Output:
+```Python
+Number is palindrome.
+```
