@@ -256,3 +256,23 @@ while i <= 5:
     print("*"*2)
     i = i + 1
 ```
+```Python
+'''
+****
+****
+****
+****
+****
+'''
+
+n = 5
+i = 0
+for  i in range(1,n+1):
+    print("*"*4)
+#OR
+n = 5
+i= 1
+while i <= n:
+    print("*"*4)
+    i = i + 1
+```
