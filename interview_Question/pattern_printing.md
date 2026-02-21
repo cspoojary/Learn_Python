@@ -226,3 +226,10 @@ Output:
 Number is palindrome.
 ```
 ## FOR LOOP
+### PATTERN PRINTING
+```Python
+# Given n (numberof rows), print the following patterns: 
+n = 5
+for i in range(1,6):
+    print(i)
+```
