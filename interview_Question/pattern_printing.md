@@ -244,3 +244,10 @@ n = 6
 for i in range(1, n+1):
     print(i)
 ```
+### 2 STAR
+```Python
+GIVEN N(NUMBER OF ROWS). print the following pattern:"
+n = 5
+for i in range(1,n+1):
+    print("*"*2)
+```
