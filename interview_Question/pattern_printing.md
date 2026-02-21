@@ -225,3 +225,4 @@ else:
 Output:
 Number is palindrome.
 ```
+## FOR LOOP
