@@ -250,4 +250,9 @@ for i in range(1, n+1):
 n = 5
 for i in range(1,n+1):
     print("*"*2)
+#OR
+i = 1
+while i <= 5:
+    print("*"*2)
+    i = i + 1
 ```
