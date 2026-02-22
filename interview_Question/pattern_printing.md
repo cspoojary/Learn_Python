@@ -282,4 +282,11 @@ n = 9
 m = 5
 for i in range(1,n+1):
     print("*"*m)
+#OR
+n = 5
+m = 6
+i = 1
+while i <= 5:
+    print("*"*m)
+    i  = i + 1
 ```
