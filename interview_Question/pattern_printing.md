@@ -276,3 +276,10 @@ while i <= n:
     print("*"*4)
     i = i + 1
 ```
+### M Star Rectangle
+```Python
+n = 9
+m = 5
+for i in range(1,n+1):
+    print("*"*m)
+```
