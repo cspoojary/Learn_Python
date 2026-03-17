@@ -290,3 +290,17 @@ while i <= 5:
     print("*"*m)
     i  = i + 1
 ```
+### Print a solid square of * of size N.
+```Python
+# Example (N = 4)
+
+# ****
+# ****
+# ****
+# ****
+
+n = int(input("Enter the number: "))
+for i in range(n):
+    print("*"*n)
+
+```
