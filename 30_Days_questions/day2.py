@@ -56,11 +56,9 @@ print("The factorial of given number is:",fac)
  *******
 *********
 '''
-for i in range(1,10):
-    
-
-
-
+# n = 9
+# for i in range(1,n+1,2):
+#     print(" "*((n-i)//2),"*"*i)
 
 
 # 7️⃣ Number Right Triangle Pattern
