@@ -69,6 +69,9 @@ print("The factorial of given number is:",fac)
 4444
 55555
 '''
+n = 5
+for i in range(1,n+1):
+    print(str(i)*i)
 
 # 8️⃣ Floyd’s Triangle
 '''
@@ -77,6 +80,11 @@ print("The factorial of given number is:",fac)
 4 5 6
 7 8 9 10
 '''
+n  = 10
+for i in range(1,n+1):
+    print()
+
+
 #9️⃣ Inverted Number Pattern
 '''
 12345
