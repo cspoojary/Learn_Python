@@ -69,9 +69,9 @@ print("The factorial of given number is:",fac)
 4444
 55555
 '''
-n = 5
-for i in range(1,n+1):
-    print(str(i)*i)
+# n = 5
+# for i in range(1,n+1):
+#     print(str(i)*i)
 
 # 8️⃣ Floyd’s Triangle
 '''
@@ -80,8 +80,12 @@ for i in range(1,n+1):
 4 5 6
 7 8 9 10
 '''
-n  = 10
+n  = 4
+num = 1
 for i in range(1,n+1):
+    for j in range(i):
+        print(num, end=' ')
+        num = num + 1
     print()
 
 
@@ -93,6 +97,13 @@ for i in range(1,n+1):
 12
 1
 '''
+n = 5
+for i in range(n,0,-1):
+    for j in range(1,i+1):
+        print(j, end='')
+    print()
+
+
 
 #🔟 Hollow Triangle Pattern.
 '''
