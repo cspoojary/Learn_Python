@@ -264,6 +264,3 @@ for i in range(n):
     first = second
     second = next
 ```
-
-## 16. Difference between while and for 
-## 17. for loop syntax
