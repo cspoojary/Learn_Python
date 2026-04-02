@@ -8,22 +8,21 @@ Create a class Student with attributes:
 
 Add a method to display student details.
 '''
-class Student:
-    def __init__(self, name, age, marks):
-        self.name = name
-        self.age = age
-        self.marks = marks
+# class Student:
+#     def __init__(self, name, age, marks):
+#         self.name = name
+#         self.age = age
+#         self.marks = marks
 
-    def display_student(self):
-        print("Name : ", self.name)
-        print("Age :",self.age)
-        print("Marks : ",self.marks)
+#     def display_student(self):
+#         print("Name : ", self.name)
+#         print("Age :",self.age)
+#         print("Marks : ",self.marks)
 
-s1 = Student("Chaithanya",23,98)
-s1.display_student()
+# s1 = Student("Chaithanya",23,98)
+# s1.display_student()
 
         
-
 
 
 '''
@@ -38,7 +37,35 @@ Methods:
     withdraw(amount)
     check_balance()
 '''
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.account_number = account_number
+        self.balance = balance
 
+    def deposit(self,amount):
+        if amount > 0:
+            self.balance = self.balance + amount
+            print(f'Deposited: {amount}')
+        else:
+            print("Invalid deposit amount")
+
+    def withdraw(self,amount):
+        if amount <= 0:
+            print(" invalid withdrawal amount")
+        elif amount > self.balance:
+            print("Insufficient balance")
+        else:
+            self.balance = self.balance - amount
+            print(f'withdrawn: {amount}')
+
+    def check_balance(self):
+        print("Balance=",self.balance)
+
+s1 = BankAccount('CH01',5000)
+
+s1.withdraw(500) 
+s1.deposit(1500) 
+s1.check_balance()      
 
 
 '''
