@@ -24,7 +24,6 @@ Add a method to display student details.
 
         
 
-
 '''
 Bank Account Class
 
@@ -37,35 +36,35 @@ Methods:
     withdraw(amount)
     check_balance()
 '''
-class BankAccount:
-    def __init__(self, account_number, balance):
-        self.account_number = account_number
-        self.balance = balance
+# class BankAccount:
+#     def __init__(self, account_number, balance):
+#         self.account_number = account_number
+#         self.balance = balance
 
-    def deposit(self,amount):
-        if amount > 0:
-            self.balance = self.balance + amount
-            print(f'Deposited: {amount}')
-        else:
-            print("Invalid deposit amount")
+#     def deposit(self,amount):
+#         if amount > 0:
+#             self.balance = self.balance + amount
+#             print(f'Deposited: {amount}')
+#         else:
+#             print("Invalid deposit amount")
 
-    def withdraw(self,amount):
-        if amount <= 0:
-            print(" invalid withdrawal amount")
-        elif amount > self.balance:
-            print("Insufficient balance")
-        else:
-            self.balance = self.balance - amount
-            print(f'withdrawn: {amount}')
+#     def withdraw(self,amount):
+#         if amount <= 0:
+#             print(" invalid withdrawal amount")
+#         elif amount > self.balance:
+#             print("Insufficient balance")
+#         else:
+#             self.balance = self.balance - amount
+#             print(f'withdrawn: {amount}')
 
-    def check_balance(self):
-        print("Balance=",self.balance)
+#     def check_balance(self):
+#         print("Balance=",self.balance)
 
-s1 = BankAccount('CH01',5000)
+# s1 = BankAccount('CH01',5000)
 
-s1.withdraw(500) 
-s1.deposit(1500) 
-s1.check_balance()      
+# s1.withdraw(500) 
+# s1.deposit(1500) 
+# s1.check_balance()      
 
 
 '''
@@ -79,6 +78,21 @@ Create a class Car with attributes:
 Method:
     display_info()
 '''
+
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print(f"Brand: {self.brand}")
+        print(f"Model: {self.model}")
+        print(f"Year: {self.year}")
+
+car1 = Car("Benz", "C-Class", 2020)
+
+car1.display_info()
 
 '''
 Employee Salary Calculation
