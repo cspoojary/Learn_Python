@@ -79,20 +79,20 @@ Method:
     display_info()
 '''
 
-class Car:
-    def __init__(self, brand, model, year):
-        self.brand = brand
-        self.model = model
-        self.year = year
+# class Car:
+#     def __init__(self, brand, model, year):
+#         self.brand = brand
+#         self.model = model
+#         self.year = year
 
-    def display_info(self):
-        print(f"Brand: {self.brand}")
-        print(f"Model: {self.model}")
-        print(f"Year: {self.year}")
+#     def display_info(self):
+#         print(f"Brand: {self.brand}")
+#         print(f"Model: {self.model}")
+#         print(f"Year: {self.year}")
 
-car1 = Car("Benz", "C-Class", 2020)
+# car1 = Car("Benz", "C-Class", 2020)
 
-car1.display_info()
+# car1.display_info()
 
 '''
 Employee Salary Calculation
@@ -104,6 +104,21 @@ Create a class Employee with:
 Method:
     calculate_bonus() (10% of salary)
 '''
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name 
+        self.salary = salary
+    
+    def calculate_bonus(self):
+        print("Name = ", self.name)
+        print("Salary = ", self.salary)
+
+        print("Total Salary = ", self.salary + self.salary * 0.10)
+
+bonus = Employee("Chaithanya", 75000)
+bonus.calculate_bonus()
+
 
 '''
 Inheritance Example
