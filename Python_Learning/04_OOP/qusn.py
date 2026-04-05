@@ -105,19 +105,19 @@ Method:
     calculate_bonus() (10% of salary)
 '''
 
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name 
-        self.salary = salary
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name 
+#         self.salary = salary
     
-    def calculate_bonus(self):
-        print("Name = ", self.name)
-        print("Salary = ", self.salary)
+#     def calculate_bonus(self):
+#         print("Name = ", self.name)
+#         print("Salary = ", self.salary)
 
-        print("Total Salary = ", self.salary + self.salary * 0.10)
+#         print("Total Salary = ", self.salary + self.salary * 0.10)
 
-bonus = Employee("Chaithanya", 75000)
-bonus.calculate_bonus()
+# bonus = Employee("Chaithanya", 75000)
+# bonus.calculate_bonus()
 
 
 '''
