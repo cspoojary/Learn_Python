@@ -132,6 +132,23 @@ Create derived classes:
 
 Each class should print its own sound.
 '''
+class Animal:
+    def Sound(self):
+        print("Animal make sounds")
+
+class Dog(Animal):
+    def Sound(self):
+        print("Dog barks")
+
+class Cat(Animal):
+    def Sound(self):
+        print("Cat meows")
+
+dog = Dog()
+cat = Cat()
+
+dog.Sound()
+cat.Sound()
 
 '''
 Library Management Class
