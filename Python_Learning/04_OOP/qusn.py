@@ -132,23 +132,23 @@ Create derived classes:
 
 Each class should print its own sound.
 '''
-class Animal:
-    def Sound(self):
-        print("Animal make sounds")
+# class Animal:
+#     def Sound(self):
+#         print("Animal make sounds")
 
-class Dog(Animal):
-    def Sound(self):
-        print("Dog barks")
+# class Dog(Animal):
+#     def Sound(self):
+#         print("Dog barks")
 
-class Cat(Animal):
-    def Sound(self):
-        print("Cat meows")
+# class Cat(Animal):
+#     def Sound(self):
+#         print("Cat meows")
 
-dog = Dog()
-cat = Cat()
+# dog = Dog()
+# cat = Cat()
 
-dog.Sound()
-cat.Sound()
+# dog.Sound()
+# cat.Sound()
 
 '''
 Library Management Class
@@ -161,6 +161,33 @@ Methods:
     add_book()
     display_books()
 '''
+class Library:
+    def __init__(self):
+       self. books = []
+        
+    def add_book(self, book_name, author):
+        book = {
+            'book_name': book_name,
+            'author':author
+        }
+        self.books.append(book)
+        print(f"Book '{book_name}' added successfully!")
+
+    def display_books(self):
+        if not self.books:
+            print("No books in the library.")
+        else:
+            print("Library Books :")
+            for i,book in enumerate(self.books, start = 1):
+                print(f"{i}. {book['book_name']} by {book['author']}")
+
+lib = Library()
+
+lib.add_book("Python", "Rossum")
+lib.add_book("Data and information", "Shreyas")
+
+lib.display_books()
+
 
 '''
 Rectangle Area and Perimeter
