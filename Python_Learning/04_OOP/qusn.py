@@ -161,33 +161,32 @@ Methods:
     add_book()
     display_books()
 '''
-class Library:
-    def __init__(self):
-       self. books = []
+# class Library:
+#     def __init__(self):
+#        self. books = []
         
-    def add_book(self, book_name, author):
-        book = {
-            'book_name': book_name,
-            'author':author
-        }
-        self.books.append(book)
-        print(f"Book '{book_name}' added successfully!")
+#     def add_book(self, book_name, author):
+#         book = {
+#             'book_name': book_name,
+#             'author':author
+#         }
+#         self.books.append(book)
+#         print(f"Book '{book_name}' added successfully!")
 
-    def display_books(self):
-        if not self.books:
-            print("No books in the library.")
-        else:
-            print("Library Books :")
-            for i,book in enumerate(self.books, start = 1):
-                print(f"{i}. {book['book_name']} by {book['author']}")
+#     def display_books(self):
+#         if not self.books:
+#             print("No books in the library.")
+#         else:
+#             print("Library Books :")
+#             for i,book in enumerate(self.books, start = 1):
+#                 print(f"{i}. {book['book_name']} by {book['author']}")
 
-lib = Library()
+# lib = Library()
 
-lib.add_book("Python", "Rossum")
-lib.add_book("Data and information", "Shreyas")
+# lib.add_book("Python", "Rossum")
+# lib.add_book("Data and information", "Shreyas")
 
-lib.display_books()
-
+# lib.display_books()
 
 '''
 Rectangle Area and Perimeter
@@ -200,8 +199,23 @@ Methods:
     area()
     perimeter()
 '''
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
 
+#     def area(self):
+#         return self.length * self.width
+    
+#     def perimeter(self):
+#         return 2 * (self.length * self.width )
+    
+# rect = Rectangle(10, 5)
 
+# print(rect.area())
+# print(rect.perimeter())
+
+        
 '''
 Calculator Class
 
@@ -211,6 +225,8 @@ Create a class Calculator with methods:
     multiply()
     divide()
 '''
+
+
 
 '''
 Student Result System
@@ -224,6 +240,9 @@ Methods:
     average_marks()
     grade()
 '''
+
+        
+
 
 '''
 Shopping Cart Class
