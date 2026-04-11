@@ -261,41 +261,40 @@ Methods:
     average_marks()
     grade()
 '''
-class StudentResult:
-    def __init__(self, Name, mark1, mark2, mark3):
-        self.Name  = Name
-        self.mark1 = mark1
-        self.mark2 = mark2
-        self.mark3 = mark3
+# class StudentResult:
+#     def __init__(self, Name, mark1, mark2, mark3):
+#         self.Name  = Name
+#         self.mark1 = mark1
+#         self.mark2 = mark2
+#         self.mark3 = mark3
 
-    def display_name(self):
-        return self.Name
+#     def display_name(self):
+#         return self.Name
 
-    def total_marks(self):
-        return self.mark1+self.mark2+self.mark3
+#     def total_marks(self):
+#         return self.mark1+self.mark2+self.mark3
     
-    def average_marks(self):
-        return self.total_marks()/3
+#     def average_marks(self):
+#         return self.total_marks()/3
     
-    def grade(self):
-        avg = self.average_marks()
-        if avg >= 90:
-            return "A"
-        if avg >= 75:
-            return "B"
-        if avg >= 60:
-            return "C"
-        else:
-            return "Fail"
+#     def grade(self):
+#         avg = self.average_marks()
+#         if avg >= 90:
+#             return "A"
+#         if avg >= 75:
+#             return "B"
+#         if avg >= 60:
+#             return "C"
+#         else:
+#             return "Fail"
         
-student = StudentResult("Chaithanya", 77, 81, 80)
+# student = StudentResult("Chaithanya", 77, 81, 80)
 
-print(f"Name:", student.display_name())
-print(f"Total: ",student.total_marks())
-print(f"average:",student.average_marks())
-print(f"grade: ", student.grade())
+# print(f"Name:", student.display_name())
+# print(f"Total: ",student.total_marks())
+# print(f"average:",student.average_marks())
+# print(f"grade: ", student.grade())
         
-
 
 '''
 Shopping Cart Class
@@ -310,3 +309,28 @@ Methods:
     remove_product()
     total_price()
 '''
+class ShoppingCart:
+    def __init__(self, Product_Name, Price, Quantity):
+        self.Product_Name = Product_Name
+        self.price = Price
+        self.Quantity = Quantity
+
+    def add_product(self, qty):
+        self.Quantity += qty
+        return self.Quantity
+    
+    def remove_product(self,qty):
+        if qty > self.Quantity:
+            return "Cannot remove more that available quantity"
+        self.Quantity -= qty
+        return self.Quantity
+    
+    def total_price(self):
+        return self.price * self.Quantity
+        
+cart = ShoppingCart("Laptop", 50000, 1)
+
+cart.add_product(2)
+cart.remove_product(1)
+
+print(cart.total_price())
