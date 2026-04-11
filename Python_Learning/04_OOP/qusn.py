@@ -225,7 +225,28 @@ Create a class Calculator with methods:
     multiply()
     divide()
 '''
+# class Calculator: 
 
+#     def add(self, a, b):
+#         return a+b
+    
+#     def subtract(self, a, b):
+#         return a-b
+    
+#     def multiply(slef, a, b):
+#         return a*b
+    
+#     def divide(self, a, b):
+#         if b == 0:
+#             print("ZeroDivisionError")
+#         return a/b
+    
+# cal =  Calculator()
+
+# print(cal.add(10,4))
+# print(cal.subtract(10,4))
+# print(cal.multiply(10,4))
+# print(cal.divide(10,4))
 
 
 '''
