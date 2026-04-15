@@ -80,7 +80,18 @@ num(input)
 # Check Prime Number
 # Input: 7
 # Output: Prime
-
+"""
+input = 7
+if input <= 1:
+    print("Not Prime")
+else:
+    for i  in range(2,int(input ** 0.5)+1):
+        if input % i == 0:
+            print("Not Prime")
+            break
+        else:
+            print("Prime")
+            """
 
 # Remove Duplicates from List
 # Input: [1,2,2,3,4,4]
