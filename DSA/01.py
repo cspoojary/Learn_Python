@@ -93,18 +93,32 @@ input:
 N : 1000000000
 M : 1000000000
 """
-
+# N , M = map(int, input("Enter the value: ").split())
+# print("Addition =", N+M)
+# print("Substraction =", N-M)
+# print("multiplication =", N * M)
+# print("Division =", N / M)
+# print("Modulus =", N // M)
 
 """
 You are given two integers N and M. Your task is to find the sum of the last digits of N and M.
 N : 169
 M : 125
 """
+# N, M = map(int, input("Enter the values: ").split())
+# Last_digit_N = N % 10
+# Last_digit_M = M % 10
+# sum = Last_digit_N + Last_digit_M
+# print("The sum of last digit is =",sum)
 
 """
 You are given an integer N. Your task is to determine whether the number is even or odd.
 """
-
+# n = int(input("Enter the number: "))
+# if n / 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
 
 """
 You are given two integers N and F. Your task is to check whether F is a factor of N.
@@ -118,11 +132,17 @@ Output:
     Yes if F is a factor of N
     No otherwise
 """
+# N , F = map(int, input("Enter the Number : ").split())
+# if N % F == 0:
+#     print("Yes, N divides F")
+# else:
+#     print("No, N is not divisible by F")
+
 
 """
 You are given two integers N and M. Your task is to check whether M is a multiple of N.
 
-A number M is said to be a multiple of N if M is divisible by N.
+A number M is said to be a multiple of N if M is a multiple of N.
 n = 6
 m  = 36
 
@@ -130,6 +150,11 @@ Output:
     Yes if M is a multiple of N
     No otherwise
 """
+# N, M = map(int, input("Enter the values: ").split())
+# if M % N == 0:
+#     print("Yes")
+# else:
+#     print("No") 
 
 """
 You are given the marks obtained by a student. Your task is to check whether the student has passed or failed.
@@ -139,6 +164,11 @@ Output:
 Pass if the student has passed
 Fail otherwise
 """
+# mark = int(input("Enter the marks: "))
+# if mark >= 35:
+#     print("Pass")
+# else :
+#     print("Fail")
 
 """
 You are given two integers A and B. Your task is to find the minimum and maximum among them.
@@ -147,16 +177,13 @@ Output:
 Min = X
 Max = Y
 """
-
-"""
-You are given two integers A and B. Your task is to find the minimum and maximum among them.
-
-input : 12 9
-
-Output
-Min = X
-Max = Y
-"""
+# A , B = map(int, input("Enter the intergers: ").split())
+# if A > B:
+#     print("Max =", A)
+#     print("Min =", B)
+# else:
+#     print("Min =", A)
+#     print("Max =", B)
 
 """
 You are given two integers A, B and C. Your task is to find the minimum and maximum among them.
@@ -167,7 +194,26 @@ Output
 Min = X
 Max = Y
 """
+# A, B, C = map(int, input("Enter the number: ").split())
 
+# # Find minimum
+# if A <= B and A <= C:
+#     minimum = A
+# elif B <= A and B <= C:
+#     minimum = B
+# else:
+#     minimum = C
+
+# # Find maximum
+# if A >= B and A >= C:
+#     maximum = A
+# elif B >= A and B >= C:
+#     maximum = B
+# else:
+#     maximum = C
+
+# print("Min =", minimum)
+# print("Max =", maximum)
 
 """
 You are given the marks obtained by a student. Based on the marks, display an appropriate performance message according to the following rules:
