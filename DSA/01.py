@@ -194,26 +194,25 @@ Output
 Min = X
 Max = Y
 """
-# A, B, C = map(int, input("Enter the number: ").split())
-
-# # Find minimum
-# if A <= B and A <= C:
-#     minimum = A
-# elif B <= A and B <= C:
-#     minimum = B
+# A, B , C = map(int, input("Enter values: ").split())
+# #For minimum
+# if A < B and A < C:
+#     Minimum = A
+# elif B < A and B < C:
+#     Minimum = B
 # else:
-#     minimum = C
+#     Minimum = C
 
-# # Find maximum
-# if A >= B and A >= C:
-#     maximum = A
-# elif B >= A and B >= C:
-#     maximum = B
+# #For Maximum
+# if A > B and A > C:
+#     Maximum = A
+# elif B > A and B > C:
+#     Maximum = B
 # else:
-#     maximum = C
+#     Maximum = C
 
-# print("Min =", minimum)
-# print("Max =", maximum)
+# print("Minimum =", Minimum)
+# print("Maximum = ", Maximum)
 
 """
 You are given the marks obtained by a student. Based on the marks, display an appropriate performance message according to the following rules:
@@ -223,6 +222,17 @@ You are given the marks obtained by a student. Based on the marks, display an ap
 - Else if marks are greater than 60 and less than or equal to 70, print Meets Expectations
 - Else (marks less than or equal to 60), print Below Par
 """
+# Marks = int(input("Enter your marks(Out of 100): "))
+# if Marks > 90:
+#     print("Excellent")
+# elif Marks > 80:
+#     print("Good")
+# elif Marks >  70:
+#     print("Fair")
+# elif Marks > 60:
+#     print("Meete expectations")
+# else:
+#     print("Below Expectations")
 
 """
 You are given the coordinates of a point (X,Y)
@@ -238,3 +248,20 @@ Y axis — if X=0 and Y≠0
 3rd Quadrant — if X<0 and Y<0
 4th Quadrant — if X>0 and Y<0
 """
+x = int(input("Enter x quadrant: "))
+y = int(input("Enter y quadrant: "))
+
+if x == 0 and y == 0:
+    print("Origin")
+elif y == 0:
+    print("X axis")
+elif x == 0:
+    print("Y axis")
+elif x > 0 and y > 0:
+    print("1st Quadrant")
+elif x < 0 and y > 0:
+    print("2nd Quadrant")
+elif x < 0 and y < 0:
+    print("3rd Quadrant")
+else:
+    print("4th Quadrant")
